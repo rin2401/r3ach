@@ -1,6 +1,6 @@
 import requests
 from bs4 import BeautifulSoup
-import time
+from time import time
 import json
  
 USER_AGENT = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"}
@@ -49,34 +49,63 @@ def scrape_google(search_term, number_results, language_code):
     except requests.RequestException:
         raise Exception("Appears to be an issue with your connection")
 
+def count_keys(texts, keys):
+    text = " ".join(texts).lower()
+    return {k: text.count(k.lower()) for k in keys}
 
 if __name__ == "__main__":
-    keywords = ["thạch lam"]
 
-    data = []
-    for keyword in keywords:
-        try:
-            t = time.time()
-            results = scrape_google(keyword, 10, "vi")
-            for result in results:
-                data.append(result)
-            print(json.dumps(data, ensure_ascii=False))
-            print("Time:", time.time() - t)
-        except Exception as e:
-            print(e)
-    
+    keywords = [
+        "Món ăn Việt Nam nào là đề bài cho các đầu bếp lọt vào Top 5 chương trình Masterchef Mỹ 2013?",
+        # "Nhân vật nào sau đây KHÔNG phải là giám khảo của Vòng chung kết cuộc thi Chiếc Thìa Vàng 2016?",
+        # "Nhà văn nào đã mô tả: \"Bánh cuốn Thanh Trì mỏng như tờ giấy và trong như lụa\"?",
+        # "\"Tôi chưa bao giờ nghĩ là làm một tô bún lại khó đến thế\" là câu nói của đầu bếp nào dưới đây?"
+    ]
 
-    # keywords = ["thạch lam"]
     # data = []
     # for keyword in keywords:
     #     try:
-    #         t = time.time()
+    #         t = time()
     #         results = scrape_google(keyword, 10, "vi")
     #         for result in results:
     #             data.append(result)
-    #         print(data, time.time()-t)
+    #         print("Time:", time() - t)
+
     #     except Exception as e:
     #         print(e)
     #     finally:
-    #         time.sleep(10)
-    # print(data)
+    #         time.sleep(3)
+    # print(json.dumps(data, ensure_ascii=False))
+    # with open("image/result.json", "w") as f:
+    #     f.write(json.dumps(data, ensure_ascii=False))   
+
+    with open("data/questions.json") as f:
+        questions = json.load(f)
+
+    with open("data/1.json", "r") as f:
+        data = json.load(f)
+    links = [d["link"] for d in data]
+    print(links)
+
+    t = time()
+    response = requests.get(links[1], headers=USER_AGENT)
+    
+    html = response.text
+    soup = BeautifulSoup(html, "html.parser")
+
+    text = soup.title.string
+    print(type(text), text)
+    
+    texts = [p.get_text() for p in soup.find_all("p")]
+    # print(texts)
+    html_lower = html.lower()
+    print("Count:", html_lower.count("phở bò"), html_lower.count("hủ tiếu"), html_lower.count("cơm tấm"))
+    print(count_keys(html_lower, questions[0]["answer"]))
+    print("Time:", time() - t)
+    
+
+    with open("data/soup_2.html", "w") as f:
+        f.write(response.text)
+    with open("data/soup_2.txt", "w") as f:
+        f.write(" ".join(texts))
+

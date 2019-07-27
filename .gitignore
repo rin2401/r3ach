@@ -1,2 +1,6 @@
 \.vscode
 client_secret.json
+
+__pycache__/
+
+tmp/

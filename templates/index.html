@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href=static/img/moon.png" type="image/x-icon"/>
+    <link rel="shortcut icon" href="static/img/moon.png" type="image/x-icon"/>
+    <title>r3ach</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link href="static/css/jquery.json-viewer.css" rel="stylesheet">
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid">
+            <img src="static/img/moon.png" class="float-left" width="124px">
+        <div class="container">
+            <h1 class="display-4">
+                r3ach
+            </h1>
+            <p class="lead">Reach to the moon</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <!-- <img class="card-img-top" src="static/img/1.png"> -->
+            <div class="card-header" id="question">{{ data.question }}</div>
+            <ul id="answer" class="list-group list-group-flush">
+                {% for text in data.answer %}
+                <li id="ans{{ loop.index0 }}" class="list-group-item">
+                    <count class="badge badge-danger">0</count>
+                    <ans>{{ text }}</ans>
+                </li>
+                {% endfor%}
+            </ul>
+        </div>
+
+        <div class="btn-group d-flex" role="group">
+                <button type="button" class="btn btn-light w-100">Previous</button>
+            <button id="scan" type="button" class="btn btn-light w-100">Scan</button>
+            <button type="button" class="btn btn-light w-100">Submit</button>
+            <button type="button" class="btn btn-light w-100">Next</button>
+        </div>
+        <pre style="word-wrap: break-word; white-space: pre-wrap;" id="result"></pre>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="static/js/jquery.json-viewer.js"></script>
+<script>
+    question =  $("#question").html().trim()
+    answer = $("#answer").find("ans").toArray().map(x => (x.innerText))
+    count =  $("#answer").find("count").toArray()
+    console.log(answer)
+    console.log(count)
+
+    $("#scan").on("click", () => {
+        data = {q: question, a: answer}
+        $.post({
+            url: "count",
+            contentType: "application/json; charset=utf-8",
+            data: JSON.stringify(data)
+        }).done(data => {
+            count.map((e,i) => {
+                e.innerText = data.count[answer[i]]
+            })
+            $('#result').jsonViewer(data)
+        })
+    })
+</script>
+</html>

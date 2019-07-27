@@ -2,9 +2,8 @@ import glob
 import os
 import time 
 
-
 files = []
-for filename in glob.glob('*.jpg'):
+for filename in glob.glob('image/*.png'):
         files.append(filename)
 
 print(files)
@@ -34,9 +33,9 @@ for image in sorted(files):
 
 print("Merging all text files into ocr-result.txt")
 	
-files = glob.glob('*.txt' )
+files = glob.glob('image/*.txt' )
 
-with open('ocr-result.txt', 'w' ) as result:
+with open('image/ocr-result.txt', 'w' ) as result:
     for textfile in files:
         for line in open( textfile, 'r' ):
             result.write( line )
