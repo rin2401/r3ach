@@ -5,7 +5,8 @@
       "Phở bò",
       "Hủ tiếu",
       "Cơm tấm"
-    ]
+    ],
+    "true": 1
   },
   {
     "question": "Nhân vật nào sau đây KHÔNG phải là giám khảo của Vòng chung kết cuộc thi Chiếc Thìa Vàng 2016?",
@@ -13,7 +14,8 @@
       "Lý Sanh",
       "Bùi Thị Sương",
       "Huy Khải"
-    ]
+    ],
+    "true": 1
   },
   {
     "question": "Nhà văn nào đã mô tả: \"Bánh cuốn Thanh Trì mỏng như tờ giấy và trong như lụa\"?",
@@ -21,7 +23,8 @@
       "Thạch Lam",
       "Nguyễn Tuân",
       "Vũ Bằng"
-    ]
+    ],
+    "true": 0
   },
   {
     "question": "\"Tôi chưa bao giờ nghĩ là làm một tô bún lại khó đến thế\" là câu nói của đầu bếp nào dưới đây?",
@@ -29,7 +32,8 @@
       "Anthony Bourdain",
       "Gordon Ramsay",
       "Martin Yan"
-    ]
+    ],
+    "true": 1
   },
   {
     "question": "Ba ngôi sao Alnitak, Alnilam, Mintaka thuộc chòm sao nào sau đây?",
@@ -37,7 +41,8 @@
       "Lạp Khuyển",
       "Thiên Hậu",
       "Lạp Hộ"
-    ]
+    ],
+    "true": 2
   },
   {
     "question": "Bông hoa đầu tiên nở trên Trạm vũ trụ quốc tế (ISS) thuộc loại hoa gì?",
@@ -45,7 +50,8 @@
       "Hoa cúc",
       "Hoa hồng",
       "Hoa xương rồng"
-    ]
+    ],
+    "true": 0
   },
   {
     "question": "\"Milky Way\" là tên tiếng Anh của cái gì?",
@@ -53,7 +59,8 @@
       "Dải ngân hà",
       "Hệ mặt trời",
       "Lỗ đen vũ trụ"
-    ]
+    ],
+    "true": 0
   },
   {
     "question": "Theo trang Space, đến hết năm 2010, tàu con thoi Atlantis thực hiện được bao nhiêu chuyến bay?",
@@ -61,7 +68,8 @@
       "32",
       "33",
       "34"
-    ]
+    ],
+    "true": 0
   },
   {
     "question": "Diễn viên Kelly Marie Trần tham gia phần nào của loạt phim \"Chiến tranh giữa các vì sao\"?",
@@ -69,7 +77,8 @@
       "Đế chế phản công",
       "Thần lực thức tỉnh",
       "Jedi cuối cùng"
-    ]
+    ],
+    "true": 2
   },
   {
     "question": "Trong Hệ mặt trời, hành tinh nào sau đây được đặt theo tên một vị thần Hy Lạp?",
@@ -77,7 +86,8 @@
       "Sao Thổ",
       "Sao Hải Vương",
       "Sao Thiên Vương"
-    ]
+    ],
+    "true": 2
   },
   {
     "question": "Đâu không phải là một vật thể, hiện tượng trong vũ trụ?",
@@ -85,7 +95,8 @@
       "Sao băng",
       "Sao chổi",
       "Sao la﻿"
-    ]
+    ],
+    "true": 2
   },
   {
     "question": "Tính đến tháng 11/2018, trong các quốc gia sau đây quốc gia nào có nhiều vệ tinh nhất?",
@@ -93,7 +104,8 @@
       "Canada",
       "Ấn Độ",
       "Đức"
-    ]
+    ],
+    "true": 1
   },
   {
     "question": "MV đầu tiên quay hoàn toàn ở ngoài vũ trụ được lấy theo tên bài hát của ai?",
@@ -101,7 +113,8 @@
       "Elton John",
       "Paul McCartney",
       "David Bowie"
-    ]
+    ],
+    "true": 2
   },
   {
     "question": "Đâu là một vị thần trong truyện thần thoại Việt Nam?",
@@ -109,6 +122,2140 @@
       "Thần Dớt",
       "Thần Trụ trời",
       "Thần Đất Gai-a"
-    ]
+    ],
+    "true": 1
+  },
+  {
+    "question": "Trong bài hát \"Ngày đầu tiên đi học\", ai là người dắt tay em đến trường?",
+    "answer": [
+      "Bố",
+      "Mẹ",
+      "Anh"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Trong bài hát \"Ngày đầu tiên đi học\", ai là người dắt tay em đến trường?",
+    "answer": [
+      "Bố",
+      "Mẹ",
+      "Anh"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Tên tiếng Anh của loài nào sau đây mà từ gốc Latin nghĩa là \"1000 chân\"?",
+    "answer": [
+      "Rết",
+      "Cuốn chiếu",
+      "Sâu róm"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Rạn san hô lớn nhất thế giới hiện nay nằm quốc gia nào?",
+    "answer": [
+      "Philippines",
+      "Úc",
+      "Mỹ"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Cơ ở bộ phận nào linh hoạt nhất trong cơ thể con người?",
+    "answer": [
+      "Mí mắt",
+      "Lưỡi",
+      "Tim"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Tại lễ trao giải âm nhạc Cống hiến 2019, nghệ sĩ nào sau đây đã giành giải \"Nhạc sĩ của năm\"?",
+    "answer": [
+      "Vũ Cát Tường",
+      "Tiên Cookie",
+      "Võ Thiện Thanh"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Quốc gia nào có thủ đô hành chính, thủ đô lập pháp và thủ đô tư pháp riêng biệt?",
+    "answer": [
+      "Sri Lanka",
+      "Nam Phi",
+      "Ả-rập Xê-út"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Trong 12 cung hoàng đạo, Cự Giải có biểu tượng là con vật nào?",
+    "answer": [
+      "Con sư tử",
+      "Con cua",
+      "Con bọ cạp"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Đâu là tên của một trò chơi dân gian?",
+    "answer": [
+      "Bịt mắt bắt rắn",
+      "Bịt mắt bắt dê",
+      "Bịt mắt bắt mèo"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Bức tượng thánh Denis nổi tiếng ở Nhà thờ Đức Bà (Paris) đang cầm cái gì trên tay?",
+    "answer": [
+      "Vòng hào quang",
+      "Đầu của mình",
+      "Một chiếc đầu lâu"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Đâu là tên một bộ phận trong cơ thể động vật?",
+    "answer": [
+      "Sách vở",
+      "Sách bò",
+      "Sách bút"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Điền vào chỗ trống tên của loài chim nhỏ nhất thế giới? \"--- h__mingbird\"",
+    "answer": [
+      "Bug ...um",
+      "Bee ...um",
+      "Fly ...um"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Điền vào chữ cái còn thiếu tên ca sĩ nổi tiếng người Canada: \"...eline ...ion\"",
+    "answer": [
+      "C-D",
+      "H-D",
+      "C-L"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Nhà hiệp sĩ quý tộc tài ba xứ Mantra là nhân vật trong tác phẩm của nhà văn nước nào?",
+    "answer": [
+      "Tây Ban Nha",
+      "Bồ Đào Nha",
+      "Áo"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Vietnam's Next Top Model có bao nhiêu mùa giải có cả thí sinh nữ và nam?",
+    "answer": [
+      "3",
+      "4",
+      "5"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Xương mác nằm ở bộ phận nào trên cơ thể người?",
+    "answer": [
+      "Ngực",
+      "Tay",
+      "Chân"
+    ],
+    "true": 2
+  },
+  {
+    "question": "DJ trẻ nhất thế giới được Kỷ lục Thế giới Guinness công nhận năm 2019 là cậu bé mấy tuổi?",
+    "answer": [
+      "4",
+      "5",
+      "6"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Ca khúc chính thức của ASEAN - \"The Asean Way\" là sáng tác của nhạc sĩ người nước nào?",
+    "answer": [
+      "Philippines",
+      "Thái Lan",
+      "Malaysia"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Đâu là tên một dự án âm nhạc của ca sĩ Hà Anh Tuấn?",
+    "answer": [
+      "See Sing Share",
+      "Meet Sing Share",
+      "Dance Sing Share"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Công ty nào đã sáng tạo ra trò chơi điện tử \"7557\" về chiến thắng Điện Biên Phủ?",
+    "answer": [
+      "VNG",
+      "BeeMob Hanoi Studio",
+      "Emobi Games"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Câu chuyện trong video ca nhạc \"Anh ơi ở lại\" của ca sĩ Chi Pu dựa trên truyện cổ tích nào?",
+    "answer": [
+      "Tấm Cám",
+      "Thạch Sanh",
+      "Thánh Gióng"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Tại lễ khai giảng năm học 2017-2018, Hiệu trưởng trường Trung học phổ thông Việt Đức đã làm gì đặc biệt?",
+    "answer": [
+      "Nhảy cùng học trò",
+      "Không xuất hiện",
+      "Ngồi một chỗ cả buổi"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Nghệ thuật cắm hoa của người Nhật Bản gọi là gì?",
+    "answer": [
+      "Shodo",
+      "Origami",
+      "Ikebana"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Trong tranh dân gian Đông Hồ, màu đỏ được lấy từ đâu?",
+    "answer": [
+      "Hoa dành dành",
+      "Gỗ vang",
+      "Hoa hòe"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Trong thiên văn, \"Năm ánh sáng\" là đơn vị dùng để đo đại lượng nào trong vũ trụ?",
+    "answer": [
+      "Thời gian",
+      "Khoảng cách",
+      "Vận tốc"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Trong phim \"Hai Phượng\" của đạo diễn Lê Văn Kiệt, nhân vật Mai gọi mẹ mình là gì?",
+    "answer": [
+      "Má",
+      "Ý",
+      "Chế"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Ai bị bịt mắt khi lập kỷ lục thế giới: Lên xuống 10 bậc thang nhanh nhất với 1 người trên đầu?",
+    "answer": [
+      "Trợ lý biểu diễn",
+      "Quốc Cơ",
+      "Quốc Nghiệp"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Đâu là ca khúc của nhạc sĩ Đặng Thế Phong trong bộ phim có tiếng đầu tiên của điện ảnh Việt Nam?",
+    "answer": [
+      "Cây đàn bỏ quên",
+      "Nhạc đường xa",
+      "Giọt mưa thu"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Trong bài hát \"Em đi chơi thuyền\" của tác giả Trần Kiết Tường, em bé KHÔNG ngồi thuyền con gì?",
+    "answer": [
+      "Con rồng",
+      "Con vịt",
+      "Con ngựa"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Trong bài thơ \"Đánh tam cúc\" của nhà thơ Trần Đăng Khoa, lá bài nào KHÔNG xuất hiện?",
+    "answer": [
+      "Sĩ",
+      "Tướng bà",
+      "Pháo"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Bức tượng David của nhà điêu khắc người Ý - Michelangelo ban đầu được đặt ở đâu?",
+    "answer": [
+      "Nhà thờ Florence",
+      "Bảo tàng Florence",
+      "Quảng trường Signoria"
+    ],
+    "true": 2
+  },
+  {
+    "question": "\"Chuyện cổ tích về loài người\" là bài thơ của tác giả nào sau đây?",
+    "answer": [
+      "Lâm Thị Mỹ Dạ",
+      "Xuân Quỳnh",
+      "Phan Thị Thanh Nhàn"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Diễn viên Ninh Dương Lan Ngọc đã giành được mấy giải Cánh Diều vàng cá nhân?",
+    "answer": [
+      "1",
+      "2",
+      "3"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Đâu là tên của con tem thế kỷ 19 có in hình Nữ hoàng Anh Victoria?",
+    "answer": [
+      "Penny Red",
+      "Penny Black",
+      "Penny White"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Ai được xem là một trong những võ sinh đầu tiên của môn võ \"Không thủ đạo\" tại Việt Nam?",
+    "answer": [
+      "Lê Tùng Dương",
+      "Lê Văn Thạnh",
+      "Nguyễn Thị Ngoan"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Mũ nồi là phụ kiện thời trang gắn với hình ảnh người phụ nữ ở đất nước nào sau đây?",
+    "answer": [
+      "Mỹ",
+      "Tây Ban Nha",
+      "Pháp"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Nữ trí thức nào đã giả trai để đi thi trong thời phong kiến Việt Nam?",
+    "answer": [
+      "Nguyễn Thị Hinh",
+      "Nguyễn Thị Lộ",
+      "Nguyễn Thị Duệ"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Ty Bình chuẩn được thành lập ở Hà Nội năm 1866 nhằm quản lý lĩnh vực nào sau đây?",
+    "answer": [
+      "Giáo dục",
+      "Quân sự.",
+      "Kinh doanh"
+    ],
+    "true": 2
+  },
+  {
+    "question": "\"Gia đình là thứ tồn tại duy nhất\" là câu nói xuất hiện trong bộ phim nào sau đây?",
+    "answer": [
+      "Về nhà đi con",
+      "Người phán xử",
+      "Nàng dâu order"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Theo tờ Business Insider - Mỹ, chuyến bay thương mại ngắn nhất thế giới kéo dài trong bao lâu?",
+    "answer": [
+      "01 phút",
+      "05 phút",
+      "10 phút"
+    ],
+    "true": 0
+  },
+  {
+    "question": "\"Còng Hòn Bà\" thuộc Khu bảo tồn thiên nhiên Hòn Bà là tên của loại sinh vật gì sau đây?",
+    "answer": [
+      "Cây gỗ",
+      "Con còng",
+      "Con cua"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Đâu là tên một món ăn?",
+    "answer": [
+      "Chả rưới",
+      "Chả rươi",
+      "Chả rưỡi"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Cây nào sau đây KHÔNG thuộc họ Cửu lý hương?",
+    "answer": [
+      "Khoan bì quất",
+      "Chúc",
+      "Cọ phèn"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Theo VFF, giải bóng đá nữ Vô địch quốc gia đầu tiên của Việt Nam năm 1998 có mấy đội tham dự?",
+    "answer": [
+      "4",
+      "6",
+      "8"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Bộ ảnh nào của cố nhiếp ảnh gia Võ An Ninh đã được một hãng truyền hình Nhật Bản dựng phóng sự?",
+    "answer": [
+      "Đôi nét thủy mặc Sa Pa",
+      "Hương lúa",
+      "Nạn đói năm 45"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Theo nhà thơ Lâm Thị Mỹ Dạ, cái gì đã giúp \"Cho tôi nhận mặt ông cha của mình\"?",
+    "answer": [
+      "Lịch sử",
+      "Lời ru",
+      "Truyện cổ"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Đất nước được mệnh danh \"vùng đất lửa và băng\" nằm tại Châu lục nào?",
+    "answer": [
+      "Châu Âu",
+      "Châu Úc",
+      "Châu Mỹ"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Nhân vật Đam San trong \"Trường ca về chàng Đam San\" sau khi chết đã hóa thành con gì?",
+    "answer": [
+      "Con hổ",
+      "Con kiến",
+      "Con ruồi"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Trong những nước sau đây, nước nào đón giáng sinh vào mùa hè?",
+    "answer": [
+      "Estonia",
+      "Jordan",
+      "Brazil"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Cuốn sách ảnh đầu tay của ca sĩ Isaac tên là gì?",
+    "answer": [
+      "Những ngày đẹp trời",
+      "Những ngày nắng đẹp",
+      "Những ngày tươi đẹp"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Thông thường, bộ phận nào của cây hoa sen được dùng để ướp trà?",
+    "answer": [
+      "Ngó sen",
+      "Hoa sen",
+      "Củ sen"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Điền từ vào chỗ trống để hoàn thiện câu tục ngữ sau: \"Góp gió thành...\"",
+    "answer": [
+      "Bão",
+      "Giông",
+      "Lốc"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Theo phản xạ, khi hắt xì hơi con người buộc phải làm gì?",
+    "answer": [
+      "Mở mắt",
+      "Nhắm mắt",
+      "Mắt nhắm mắt mở"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Trong tiểu thuyết \"Đất Rừng Phương Nam\" (1957), người thứ hai đã giúp An khỏi cảnh lang thang là ai?",
+    "answer": [
+      "Dì Tư Béo",
+      "Lão Ba Ngù",
+      "Ông lão bán rắn"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Sao chổi nào sau đây có 6 đuôi?",
+    "answer": [
+      "Halley",
+      "Iwamoto",
+      "Cheseaux"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Tiểu thuyết \"Lan Hữu\" của tác giả Nhượng Tống được đặt theo tên nhân vật nào trong truyện?",
+    "answer": [
+      "Một cô gái",
+      "Hai cô gái",
+      "Hai chàng trai"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Tính đến nay, di sản nào sau đây không thuộc Danh mục \"Di sản văn hóa phi vật thể quốc gia\"?",
+    "answer": [
+      "Nghệ thuật Rô băm",
+      "Lễ Gạ ma thú",
+      "Lễ hội chùa Trăm Gian"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Nữ vận động viên bóng chuyền Việt Nam nào đã thi đấu cho đội đạt chức vô địch quốc gia Thái Lan?",
+    "answer": [
+      "Trần Thị Bích Thủy",
+      "Trần Thị Thanh Thúy",
+      "Nguyễn Thị Ngọc Hoa"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Kim tự tháp ở Ai Cập được xây dựng theo hình dáng của khối đa diện nào sau đây?",
+    "answer": [
+      "Khối chóp tam giác",
+      "Khối chóp tam giác đều",
+      "Khối chóp tứ giác đều"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Theo phương ngữ Quảng Bình, từ nào dùng để gọi bố?",
+    "answer": [
+      "Bố",
+      "Bọ",
+      "Bô"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Trận động đất lớn nhất trên Trái đất từng được ghi nhận cho đến nay là bao nhiêu độ richter?",
+    "answer": [
+      "9,5",
+      "9,2",
+      "9,0"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Diễn viên nào đóng vai Thần Đèn trong phim \"Aladdin 2018?",
+    "answer": [
+      "Will Smith",
+      "Daniel Craig",
+      "Keanu Reeves"
+    ],
+    "true": 0
+  },
+  {
+    "question": "\"Stadion\" là đơn vị đo cái gì của người Hy Lạp cổ?",
+    "answer": [
+      "Thời gian",
+      "Độ dài",
+      "Trọng lượng"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Ca sĩ Lam Trường có biệt danh là gì?",
+    "answer": [
+      "Anh Hai",
+      "Anh Ba",
+      "Anh Tư"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Bộ phim nào đã giành giải Cánh diều vàng cho phim truyền hình tại lễ trao giải Cánh diều 2018?",
+    "answer": [
+      "Gạo nếp gạo tẻ",
+      "Quỳnh búp bê",
+      "Ngày ấy mình đã yêu"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Từ nào sau đây viết đúng chính tả?",
+    "answer": [
+      "Lở dở",
+      "Lở dỡ",
+      "Lỡ dở"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Theo nhà nghiên cứu Lê Trung Hoa, tên gọi Cần Thơ bắt nguồn từ tên của sự vật nào?",
+    "answer": [
+      "Đàn cầm.",
+      "Rau cần",
+      "Cá sặc rằn"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Đâu là vật bất li thân của những người cận thị?",
+    "answer": [
+      "Kính râm",
+      "Kính cận",
+      "Kính lúp"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Cá heo Irrawaddy là tên gọi khác của loài cá nào sau đây?",
+    "answer": [
+      "Cúi",
+      "Bò",
+      "Nược"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Trong ba người đẹp sau, ai đã giành ngôi vị cao nhất trong một cuộc thi sắc đẹp quốc tế?",
+    "answer": [
+      "Trương Tri Trúc Diễm",
+      "Nguyễn Phương Khánh",
+      "Bùi Thúy Hạnh"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Trong các bộ phim sau, phim nào đại diện cho Việt Nam tham dự Oscar 2018?",
+    "answer": [
+      "Cha cõng con",
+      "Song Lang",
+      "Người bất tử"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Loài vật nào dưới đây không xì hơi?",
+    "answer": [
+      "Bò",
+      "Lợn",
+      "Lười"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Sau mỗi lần lột xác, cuốn chiếu mọc thêm mấy chân?",
+    "answer": [
+      "2",
+      "4",
+      "8"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Ai là người phụ trách thực đơn của sự kiện thời trang Met Gala 2019 tổ chức tại Mỹ?",
+    "answer": [
+      "Gordon Ramsay",
+      "Anthony Bourdain",
+      "Olivier Cheng"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Bao lì xì truyền thống thường có màu gì?",
+    "answer": [
+      "Đỏ",
+      "Xanh lục",
+      "Tím"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Với bài hát \"Ông bà anh\", Lê Thiện Hiếu đã đạt giải gì tại Lễ trao giải Âm nhạc Cống hiến lần thứ 12",
+    "answer": [
+      "Bài hát của năm",
+      "Nghệ sĩ mới của năm",
+      "Nhạc sĩ của năm"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Trong bài dân ca \"Đi cấy\", ba bốn cô có hẹn cùng gì?",
+    "answer": [
+      "Trăng",
+      "Trời",
+      "Đất"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Đâu là bài hát đầu tiên mà nhạc sĩ Văn Cao sáng tác?",
+    "answer": [
+      "Mùa xuân đầu tiên",
+      "Tiến quân ca",
+      "Buồn tàn thu"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Chữ Manuka trong \"Mật ong Manuka\" là chỉ tên của cái gì?",
+    "answer": [
+      "Vùng đất",
+      "Loài hoa",
+      "Giống ong"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Đâu là chủ đề của ngày Nước Thế giới năm 1995 do Liên Hiệp Quốc tổ chức?",
+    "answer": [
+      "Nước cho tương lai",
+      "Mọi người đều ở \"hạ lưu\"",
+      "Nước và phụ nữ"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Hồ Ba Bể ở tỉnh Bắc Kạn còn có tên gọi khác là gì?",
+    "answer": [
+      "Pé Lầm",
+      "Pé Lèng",
+      "Slam Pé"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Mắt nào nằm ở chân?",
+    "answer": [
+      "Mắt ốc",
+      "Mắt cá",
+      "Måt cua"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Tên con sông Thạch Hãn được nhà thơ nào dùng làm bút danh?",
+    "answer": [
+      "Tản Đà",
+      "Huy Cận",
+      "Chế Lan Viên"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Trong môn bóng rổ, một quả ném phạt được tính mấy điểm?",
+    "answer": [
+      "1",
+      "2",
+      "3"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Theo kinh nghiệm dân gian, khi chuồn chuồn bay thấp thì trời sẽ thế nào?",
+    "answer": [
+      "Mưa",
+      "Râm",
+      "Nắng"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Bút danh của tác giả nào sau đây là tên một vị thuốc trong đông y?",
+    "answer": [
+      "Tô Hoài",
+      "Thạch Lam",
+      "Hoàng Cầm"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Trò chơi điện tử nào KHÔNG xuất hiện trong bộ phim \"Pixels\" của đạo diễn Chris Columbus?",
+    "answer": [
+      "Centipede",
+      "Battle City",
+      "Donkey Kong"
+    ],
+    "true": 1
+  },
+  {
+    "question": "\"Cô gái dậy thì\" là tên bức tranh do ai vẽ?",
+    "answer": [
+      "Văn Cao",
+      "Bùi Xuân Phái",
+      "Tô Ngọc Vân"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Tại trận bán kết Euro 1968, khi chưa có luật đá luân lưu, người ta đã phân định thắng thua bằng cách",
+    "answer": [
+      "Tung đồng xu",
+      "Bầu chọn",
+      "Bốc thăm"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Trong bài hát \"Con mắt còn lại\" của nhạc sĩ Trịnh Công Sơn, có mấy con mắt khóc người?",
+    "answer": [
+      "Một con mắt",
+      "Hai con mắt",
+      "Không con mắt nào"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Khí oxy trên máy bay được lấy từ đâu?",
+    "answer": [
+      "Trực tiếp từ không khí",
+      "Khí nén lấy từ động cơ",
+      "Hệ thống tái chế"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Trong MV \"Lớn rồi còn khóc nhè\" của ca sĩ Trúc Nhân, người con suýt bị đánh đòn vì việc gì?",
+    "answer": [
+      "Mất xe đạp",
+      "Bị điểm kém",
+      "Đánh nhau"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Đâu là tên của một hiện tượng thời tiết?",
+    "answer": [
+      "Vòi voi",
+      "Vòi rồng",
+      "Vòi bạch tuộc"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Điện Hòn Chén là di tích thuộc tỉnh nào của Việt Nam?",
+    "answer": [
+      "Khánh Hòa",
+      "Kiên Giang",
+      "Thừa Thiên - Huế"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Tượng Nữ thần Tự do ở Mỹ có màu xanh là do đâu?",
+    "answer": [
+      "Sơn xanh",
+      "Đá màu xanh",
+      "Đồng bị oxi hóa"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Bài hát \"Lá diêu bông\" phỏng theo bài thơ cùng tên là của nhạc sĩ nào?",
+    "answer": [
+      "Phạm Duy",
+      "Trần Tiến",
+      "Văn Chung"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Thành phố nào sau đây đã hai lần đăng cai tổ chức Olympic mùa đông?",
+    "answer": [
+      "St. Moritz",
+      "Olso",
+      "Vancouver"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Theo nguyên tắc pha màu, màu đỏ pha với màu xanh dương theo tỉ lệ bằng nhau sẽ thành màu gì?",
+    "answer": [
+      "Nâu",
+      "Hồng",
+      "Tím"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Đâu là bộ phim đã thu trực tiếp giọng hát của các diễn viên trên phim trường?",
+    "answer": [
+      "La La Land",
+      "Les Misérables",
+      "Mamma Mia!"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Điền từ còn thiếu để hoàn thiện cấu thành ngữ sau: \"Rách như...\"",
+    "answer": [
+      "Tổ đỉa",
+      "Tổ cú",
+      "Tổ qua"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Theo lịch Hindu tại Ấn Độ, lễ hội sắc màu Holi được tổ chức vào tháng nào?",
+    "answer": [
+      "Asvina",
+      "Bhadra",
+      "Phalguna"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Tên gọi của môn \"chạy đường trường\" được đặt theo tên của đối tượng nào sau đây?",
+    "answer": [
+      "Một trò chơi",
+      "Một vùng đất",
+      "Một hoàng đế"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Tên một loại xà bông do công ty Việt Nam sản xuất?",
+    "answer": [
+      "Cô Hai",
+      "Cô Ba",
+      "Cô Tư"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Bài hát \"Kim\" xuất hiện trong bộ phim dành cho tuổi học trò nào sau đây?",
+    "answer": [
+      "Tháng năm rực rỡ",
+      "Cô gái đến từ hôm qua",
+      "Mùa yêu đầu tiên"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Bài hát \"Quê hương\" được nhạc sĩ Giáp Văn Thạch phổ nhạc từ bài thơ nào?",
+    "answer": [
+      "Quê hương",
+      "Bài học đầu cho con",
+      "Bài học đầu tiên"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Theo âm lịch, \"Sóc\" dùng để chỉ ngày nào?",
+    "answer": [
+      "Ngày mùng 1",
+      "Ngày 15",
+      "Ngày 15 và mùng 1"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Điền từ còn thiếu để hoàn thiện câu tục ngữ sau: \"Trâu chậm uống ...\"",
+    "answer": [
+      "Nước trong",
+      "Nước đục",
+      "Nước mặn"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Ai là người thành lập Đội Tuyên truyền văn nghệ đầu tiên của quân đội Việt Nam năm 1947?",
+    "answer": [
+      "Đỗ Nhuận",
+      "Tố Hữu",
+      "Hoàng Cầm"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Đâu là tên một dự án nghiên cứu về đa dạng sinh học mà theo tiếng Lào có nghĩa là \"bảo tồn\"?",
+    "answer": [
+      "Nam Theun",
+      "Sea Lao",
+      "Anoulak"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Trong giải đấu của Liên đoàn bóng rổ quốc tế, mỗi hiệp bóng rổ kéo dài bao nhiêu phút?",
+    "answer": [
+      "10 phút",
+      "20 phút",
+      "15 phút"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Trong truyện \"Thám tử lừng danh Conan\", các thành viên tổ chức áo đen lấy mật danh theo tên gọi của",
+    "answer": [
+      "Các loài hoa",
+      "Các loại thực phẩm",
+      "Các loại rượu"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Trong đợt phóng tàu tháng 7/2020 của NASA, con người được gửi cái gì đại diện cho mình lên Sao Hỏa?",
+    "answer": [
+      "Tên",
+      "Hình ảnh",
+      "Vân tay"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Khổ 3 và 4 trong bài thơ \"Viếng hồn trinh nữ\" của tác giả Nguyễn Bính có bao nhiêu chữ \"trắng\"?",
+    "answer": [
+      "4",
+      "6",
+      "8"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Đâu là tên của cây cầu xoay duy nhất tại Việt Nam hiện nay?",
+    "answer": [
+      "Cầu Sông Hàn",
+      "Cầu Thị Nại",
+      "Cầu Phú Mỹ"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Đâu là màu đại diện chính thức của nhóm nhạc Hàn Quốc SNSD?",
+    "answer": [
+      "Hồng",
+      "Xanh lá",
+      "Vàng"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Quốc gia nào sau đây có nhiều múi giờ nhất?",
+    "answer": [
+      "Pháp",
+      "Anh",
+      "Nga"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Đâu không phải là tên làng nghề thêu tay của Việt Nam?",
+    "answer": [
+      "Minh Lãng",
+      "Tam Tảo",
+      "Văn Lâm"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Đâu là loại thực vật đặc biệt được trồng ở vùng suối nước nóng?",
+    "answer": [
+      "Xương rồng Nopal",
+      "Giá đỗ Owani",
+      "Khoại Oca"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Đây là hình ảnh ghép từ khuôn mặt hai ca sĩ, họ hát chung ca khúc nào sau đây?",
+    "answer": [
+      "Especially for you",
+      "I'm your angel",
+      "What it's like to be me"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Đâu là tên một MV nổi tiếng của ca sĩ Soobin Hoàng Sơn?",
+    "answer": [
+      "Đi để đi mãi",
+      "Đi để trở về",
+      "Đi để quay lại"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Điền từ còn thiếu vào cấu thành ngữ sau: \"Ngựa quen đường...\"",
+    "answer": [
+      "Cũ",
+      "Xưa",
+      "Mới"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Đâu là cuốn tự truyện đầu tiên của người thầy viết bằng chân\" Nguyễn Ngọc Ký?",
+    "answer": [
+      "Tâm huyết trao đời",
+      "Tôi đi học",
+      "Tôi học đại học"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Loại phô-mai nào sau đây có mùi hôi thối?",
+    "answer": [
+      "Camembert",
+      "Monterey Jack",
+      "Limburger"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Từ nào sau đây viết đúng chính tả?",
+    "answer": [
+      "Khúc khỉu",
+      "Khúc khủy",
+      "Khúc khuỷu"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Trong nghệ thuật cổ truyền chầu văn, \"Phú Bình\" là lối hát để ca ngợi ai?",
+    "answer": [
+      "Các nữ thần",
+      "Các nam thần",
+      "Các nữ chúa"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Trong phim \"Nắng\" (2016), nhân vật mẹ Mưa có tên là gì?",
+    "answer": [
+      "Nguyễn Thị Trang",
+      "Lê Thị Trang",
+      "Trần Thị Trang"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Giải thưởng Trần Đại Nghĩa lần 1 của Viện Hàn lâm Khoa học và Công nghệ được trao cho ai sau đây?",
+    "answer": [
+      "TS Nguyễn Văn Thao",
+      "TS Vũ Đức Lợi",
+      "GS.TS Lê Trần Bình"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Trong môn thủ công đan len, mũi đan kết thúc sản phẩm gọi là gì?",
+    "answer": [
+      "Mũi vòng",
+      "Mũi gầy",
+      "Mũi chiết"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Di tích nào sau đây không phải là Di sản văn hóa và thiên nhiên thế giới do UNESCO công nhận?",
+    "answer": [
+      "Thành Nhà Hồ",
+      "Khu di tích Chăm Mỹ Sơn",
+      "Cố đô Hoa Lư"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Nguyên mẫu ngoài đời của nhân vật hoạt hình gấu Pooh đến từ nước nào?",
+    "answer": [
+      "Anh",
+      "Мў",
+      "Canada"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Quê hương của nhiếp ảnh gia Đinh Đăng Định - người chụp ảnh Bác Hồ nổi tiếng về nghề gì?",
+    "answer": [
+      "Khắc gỗ",
+      "Tráng ảnh",
+      "Dát vàng"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Trong bài \"Cho tôi đi làm mưa với\", nhân vật \"tôi\" xin đi cùng ai?",
+    "answer": [
+      "Chị gió",
+      "Chị mây",
+      "Chị nắng"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Đâu là tên một bài thơ của nữ sĩ Bà Huyện Thanh Quan?",
+    "answer": [
+      "Núi Ba Đèo",
+      "Chùa Trấn Bắc",
+      "Vịnh Thăng Long hoài cổ"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Theo Can Chi, giờ Tỵ là thời điểm nào trong ngày?",
+    "answer": [
+      "Từ 23 giờ đến 1 giờ",
+      "Từ 19 giờ đến 21 giờ",
+      "Từ 9 giờ đến 11 giờ"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Tay vợt cầu lông nữ đầu tiên của Việt Nam thi đấu tại Olympic mùa hè được sinh ra ở đâu?",
+    "answer": [
+      "Hà Nội",
+      "Bắc Giang",
+      "TP. Hồ Chí Minh"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Theo tờ báo \"The Sun\" - nước Anh, tính đến nay vợ chồng David Beckham và Victoria có mấy người con?",
+    "answer": [
+      "3",
+      "4",
+      "5"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Đây là danh lam thắng cảnh nổi tiếng nào Việt Nam?",
+    "answer": [
+      "Lăng Minh Mạng",
+      "Lăng Tự Đức",
+      "Lăng Khải Định"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Đâu là tên một chương trình dành cho trẻ em được phát sóng trên Đài Truyền hình Việt Nam?",
+    "answer": [
+      "Những bông hoa nhỏ",
+      "Những bông hoa đẹp",
+      "Những bông hoa thơm"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Khi mới ra đời, YouTube phục vụ mục đích chính nào sau đây?",
+    "answer": [
+      "Hẹn hò",
+      "Bán hàng",
+      "Xem phim"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Từ nào sau đây viết đúng chính tả?",
+    "answer": [
+      "Chẩn đoán",
+      "Chuẩn đoán",
+      "Chẩn đoán"
+    ],
+    "true": 0
+  },
+  {
+    "question": "\"Conchita\" là biệt danh của nghệ sĩ nào sau đây?",
+    "answer": [
+      "Taylor Swift",
+      "Selena Gomez",
+      "Nicki Minaj"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Trong các động vật sau đây, con nào không thuộc bộ cua?",
+    "answer": [
+      "Cua đá",
+      "Cáy",
+      "Cua đinh"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Loài vật nào sau đây có da dày nhất?",
+    "answer": [
+      "Cá nhà táng",
+      "Cá sấu",
+      "Tê giác"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Quả bóng dùng trong môn thể thao nào sau đây không có hình cầu?",
+    "answer": [
+      "Bóng bầu dục",
+      "Bóng bàn",
+      "Bóng rổ"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Vùng nước nào sau đây không phải là biển?",
+    "answer": [
+      "Biển Coral",
+      "Biển Galilee",
+      "Biển Erythraean"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Tác phẩm \"Trẩy chùa Hương\" là du ký của tác giả nào sau đây?",
+    "answer": [
+      "Nguyễn Nhược Pháp",
+      "Lê Hữu Trác",
+      "Phạm Quỳnh"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Trong bộ truyện tranh \"Doraemon\", tên của chú mèo Doraemon có nghĩa là gì?",
+    "answer": [
+      "Chú mèo tương lai",
+      "Chú mèo đi lạc",
+      "Chú mèo robot"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Từ nào sau đây khi bỏ dấu huyền thì tạo thành từ mới đồng nghĩa?",
+    "answer": [
+      "Lời",
+      "Lùi",
+      "Chùi"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Tính đến nay, tỉnh nào của nước ta chưa có thành phố trực thuộc?",
+    "answer": [
+      "Tây Ninh",
+      "Bình Phước",
+      "Đắk Nông"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Biển nào sau đây không có nước?",
+    "answer": [
+      "Biển Sầm Sơn",
+      "Biển Chết",
+      "Biển quảng cáo"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Học sinh Nga bắt đầu năm học vào ngày lễ nào?",
+    "answer": [
+      "Ngày lễ mùa xuân",
+      "Ngày tri thức",
+      "Ngày đoàn kết toàn dân"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Đâu là tên của một trò chơi dân gian?",
+    "answer": [
+      "Rồng rắn lên trời",
+      "Rồng rắn lên mây",
+      "Rồng rắn lên cây"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Trong năm 2019, nam cầu thủ nào đang thi đấu cho câu lạc bộ Muangthong United?",
+    "answer": [
+      "Đình Trọng",
+      "Văn Toàn",
+      "Văn Lâm"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Loại lá nào không mọc trên cây?",
+    "answer": [
+      "Lá đa",
+      "Lá lốt",
+      "Lá lách"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Loài hoa lưu ly mang ý nghĩa gì?",
+    "answer": [
+      "Xin đừng quên tôi",
+      "Tôi không nhớ ai",
+      "Đừng nhớ đến tôi"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Người sáng lập sự kiện thời trang Met Gala - Mỹ đã mất năm bao nhiêu tuổi?",
+    "answer": [
+      "70 tuổi",
+      "90 tuổi",
+      "100 tuổi"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Đội tuyển bóng đá Quốc gia nam của Việt Nam đã mấy lần vô địch AFF Cup?",
+    "answer": [
+      "1",
+      "2",
+      "3"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Tính đến nay, đâu là đội bóng đá không thua bàn nào trong giờ thi đấu chính thức tại 1 kỳ World Cup?",
+    "answer": [
+      "Brazil",
+      "Tây Ban Nha",
+      "Thụy Sĩ"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Cộng đồng người hâm mộ ca sĩ người Mỹ Chris Brown được gọi là gì?",
+    "answer": [
+      "Team Drizzy",
+      "Team Breezy",
+      "Bro Army"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Loại nhạc cụ Albert Einstein yêu thích nhất được ông đặt tên là gì?",
+    "answer": [
+      "Elsa",
+      "Mileva",
+      "Lina"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Đông Kinh là tên gọi của Hà Nội dưới thời vị vua nào?",
+    "answer": [
+      "Lý Nam Đế",
+      "Trần Thái Tông",
+      "Lê Thái Tổ"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Loại nước nào sau đây thường được dùng để làm thơm cơ thể?",
+    "answer": [
+      "Nước mưa",
+      "Nước hoa",
+      "Nước lẩu"
+    ],
+    "true": 1
+  },
+  {
+    "question": "\"Nếu cho tôi 6 giờ để đốn hạ một cái cây, tôi sẽ dành 4 giờ đầu tiên để mài rìu\" là câu nói của ai?",
+    "answer": [
+      "George Washington",
+      "Franklin D. Roosevelt",
+      "Abraham Lincoln"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Điền từ còn thiếu để hoàn thiện cấu thành ngữ sau: \"Ăn mày đòi xôi..\"",
+    "answer": [
+      "Gấc",
+      "Xéo",
+      "Ngô"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Đâu là quốc gia đầu tiên trên thế giới khai thác thành công năng lượng địa nhiệt?",
+    "answer": [
+      "Ý",
+      "Mỹ",
+      "New Zealand"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Tước hiệu của Hoàng đế Quang Trung trước khi lên ngôi là gì?",
+    "answer": [
+      "Bình Định Vương",
+      "Bắc Bình Vương",
+      "Bình An Vương"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Trong phim \"Em bé Hà Nội\", bé Ngọc Hà chơi nhạc cụ gì?",
+    "answer": [
+      "Dương cầm",
+      "Phong cầm",
+      "Vĩ cầm"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Việt Nam có bao nhiêu tỉnh, thành phố giáp biển?",
+    "answer": [
+      "28",
+      "29",
+      "30"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Trong môn tennis, ai là người duy nhất đến nay đạt được danh hiệu Golden Slam?",
+    "answer": [
+      "Serena Williams",
+      "Roger Federer",
+      "Steffi Graf"
+    ],
+    "true": 2
+  },
+  {
+    "question": "\"Cơ quạ\" nằm ở bộ phận nào trên cơ thể người?",
+    "answer": [
+      "Cẳng chân",
+      "Ngực",
+      "Cánh tay"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Đâu là tên bộ phim lấy bối cảnh một cuộc chiến tranh ở Việt Nam?",
+    "answer": [
+      "The Apocalypse",
+      "Now Apocalypse",
+      "Apocalypse Now"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Một lô tiền peso sản xuất năm 2008 của nước Chile đã bị lỗi gì?",
+    "answer": [
+      "Sai chính tả",
+      "Sứt viền",
+      "Dính phôi đúc"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Khối lượng của Mặt Trời chiếm tỉ lệ khoảng bao nhiêu phần trăm so với khối lượng Hệ Mặt Trời?",
+    "answer": [
+      "79,8%",
+      "89,8%",
+      "99,8%"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Cầu thủ nào sau đây là một trong 10 Gương mặt trẻ Việt Nam tiêu biểu năm 2018?",
+    "answer": [
+      "Bùi Tiến Dũng",
+      "Nguyễn Quang Hải",
+      "Phan Văn Đức"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Tên thật của nghệ sĩ Quyền Linh là gì?",
+    "answer": [
+      "Nguyễn Quyền Linh",
+      "Mai Quyền Linh",
+      "Mai Huyền Linh"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Phong trào \"Người con hiếu thảo\" của thành phố Hồ Chí Minh phát động từ năm nào?",
+    "answer": [
+      "1995",
+      "2000",
+      "2005"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Trong bảy sắc cầu vồng KHÔNG có màu nào sau đây?",
+    "answer": [
+      "Vàng",
+      "Chàm",
+      "Trắng"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Đồng xu thủy tinh của Mỹ được đúc năm 1942 dự định thay thế cho đồng xu có mệnh giá bao nhiêu?",
+    "answer": [
+      "1 cent",
+      "2 cent",
+      "3 cent"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Ca sĩ Đan Trường vào vai thầy giáo trong bộ phim học đường nào?",
+    "answer": [
+      "Chít và Pi",
+      "Nữ sinh",
+      "Thứ ba học trò"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Trong bài hát \"Tạm biệt búp bê\" của tác giả Hoàng Thông, chú gấu có tên là gì?",
+    "answer": [
+      "Misa",
+      "Maica",
+      "Milu"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Trong cuộc thi chạy, vận động viên vượt qua người thứ 2 thì sẽ đứng thứ mấy?",
+    "answer": [
+      "Thứ 1",
+      "Thứ 2",
+      "Thứ 3"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Đâu là tên một bài hát về tuổi học trò của nhạc sĩ Hoài An?",
+    "answer": [
+      "Bài thơ",
+      "Thơ tình",
+      "Tình thơ"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Tính đến nay, loạt phim truyền hình \"Trò chơi vương quyền\" - \"Game of Thrones\" có bao nhiêu phần?",
+    "answer": [
+      "6",
+      "7",
+      "8"
+    ],
+    "true": 2
+  },
+  {
+    "question": "MV \"Hãy trao cho anh\" của Sơn Tùng M-TP được quay ở vườn quốc gia nào sau đây?",
+    "answer": [
+      "Joshua Tree",
+      "Bryce Canyon",
+      "Everglades"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Theo FIFA, đội tuyển bóng đá Quốc gia nữ Việt Nam từng đạt thứ hạng cao nhất là bao nhiêu?",
+    "answer": [
+      "28",
+      "29",
+      "30"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Theo Đại học Colorado State vào năm 2011, ta có thể xem phản ứng của loài nào để phát hiện thuốc nổ?",
+    "answer": [
+      "Chó",
+      "Cây",
+      "Chim"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Theo truyền thống tại Đô Lương, Nghệ An, nghề làm nồi đất ở Trù Sơn được truyền lại cho ai dưới đây?",
+    "answer": [
+      "Con trai",
+      "Con dâu",
+      "Con rể"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Loại hoa được gọi là \"Nữ hoàng sắc đẹp\" chỉ nở vào ban đêm của quần đảo Trường Sa là hoa gì?",
+    "answer": [
+      "Hoa ngọc lan",
+      "Hoa bàng vuông",
+      "Hoa quỳnh"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Trong lễ tịch điền, vua triều Nguyễn mặc áo màu gì khi cày ruộng?",
+    "answer": [
+      "Vàng tươi",
+      "Xanh lá mạ",
+      "Gạch non"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Vị vua nào của Việt Nam có 5 phi tần thuộc 5 dân tộc khác nhau?",
+    "answer": [
+      "Lê Thánh Tông",
+      "Lý Thần Tông",
+      "Lê Thần Tông"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Điều gì khiến cho bò tót xông tới tấn công những võ sĩ đấu bò?",
+    "answer": [
+      "Màu của chiếc khăn",
+      "Chuyển động của khăn",
+      "Mùi của võ sĩ"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Theo Hiệp hội Tiền giấy quốc tế, các tờ tiền của nước nào đã 3 lần đạt giải \"Tờ tiền của năm\"?",
+    "answer": [
+      "Canada",
+      "Kazakhstan",
+      "Thụy Sĩ"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Chiếc xe hơi đầu tiên của Việt Nam được sản xuất tại đơn vị nào?",
+    "answer": [
+      "Vinfast",
+      "Công ty Xe hơi Saigon",
+      "Z157"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Đâu là màu sắc hoàng gia của đế chế La Mã?",
+    "answer": [
+      "Tím",
+      "Trắng bạc",
+      "Xanh ngọc thạch"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Đâu là ca sĩ Việt Nam đầu tiên nhận nút vàng YouTube?",
+    "answer": [
+      "Hồ Quang Hiếu",
+      "Lâm Chấn Khang",
+      "Sơn Tùng MTP"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Nhạc sĩ Đức Trí viết bài hát \"Kathy, Kathy\" dành tặng cho ai?",
+    "answer": [
+      "Người yêu cũ",
+      "Người bạn",
+      "Người cháu gái"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Bộ phim nào đã giúp minh tinh Meryl Streep đạt giải Oscar cho \"Nữ diễn viên chính xuất sắc nhất\"?",
+    "answer": [
+      "Sophie's Choice",
+      "Out of Africa",
+      "The Post"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Thiết bị TESS được dùng để thu thập dữ liệu về cái gì?",
+    "answer": [
+      "Độ sáng của bầu trời",
+      "Độ ẩm của không khí",
+      "Độ ồn của âm thanh"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Nhất quỷ, nhì ma, thứ ba là ai?",
+    "answer": [
+      "Học trò",
+      "Thiên thần",
+      "Thiên sứ"
+    ],
+    "true": 0
+  },
+  {
+    "question": "\"Châu bản triều Nguyễn\" được viết bằng mấy loại chữ viết?",
+    "answer": [
+      "2",
+      "3",
+      "4"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Khẩu hiệu của ngành công nghệ Việt Nam do Bộ Thông tin và Truyền thông lựa chọn năm 2019 là gì?",
+    "answer": [
+      "Made in Vietnam",
+      "Make in Vietnam",
+      "Make for Vietnam"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Nhà in \"Trí Trung đường\" ở phố Thanh Hà, Hà Nội do ai lập nên vào thế kỷ 19?",
+    "answer": [
+      "Nguyễn Tri Phương",
+      "Đặng Huy Trứ",
+      "Ngô Đức Kế"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Loài vật nào có tên trong tiếng Hy Lạp cổ nghĩa là: Có 8 chân?",
+    "answer": [
+      "Bạch tuộc",
+      "Mực",
+      "Cua"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Trong bài hát \"Em dạo này\" của ban nhạc Ngọt, nhân vật \"em\" thường đi trà đá ở đâu?",
+    "answer": [
+      "Hồ Gươm",
+      "Hồ Tây",
+      "Hồ Trúc Bạch"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Trong truyện cổ tích \"Cây khế\", chim thần đề nghị người em dùng quả khế đổi lấy thứ gì sau đây?",
+    "answer": [
+      "Kim cương",
+      "Vàng",
+      "Đô la Mỹ"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Đâu là trường tư thục do nhà Nho Chu Văn An mở để dạy học trò nghèo?",
+    "answer": [
+      "Thanh Đàm",
+      "Huỳnh Cung",
+      "Văn Thôn"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Gió Lào là loại gió gì?",
+    "answer": [
+      "Gió phơn",
+      "Gió mùa",
+      "Gió mậu dịch"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Ca sĩ nào được ca tụng là \"Ông hoàng Rock n Roll\"?",
+    "answer": [
+      "Elvis Presley",
+      "John Lennon",
+      "Bob Dylan"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Tài tử nào sau đây CHƯA từng đóng vai người Dơi - Batman trong một bộ phim điện ảnh?",
+    "answer": [
+      "Val Kilmer",
+      "George Clooney",
+      "Christopher Reeve"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Đội tuyển U23 Việt Nam đã đánh bại đội nào tại Vòng chung kết U23 châu Á 2018?",
+    "answer": [
+      "U23 Hàn Quốc",
+      "U23 Syria",
+      "U23 Australia"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Đâu không phải tên một loại lịch cổ của người dân tộc Mường?",
+    "answer": [
+      "Khao Rọi",
+      "Rùa",
+      "Cối"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Đâu là tên một MV của Amee?",
+    "answer": [
+      "Đen đá không đường",
+      "Nâu đá",
+      "Trà sữa trân châu"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Tính đến nay, ai là người duy nhất đạt cả giải Oscar cho Kịch bản chuyển thể và Nobel Văn học?",
+    "answer": [
+      "George Bernard Shaw",
+      "Bob Dylan",
+      "Mạc Ngôn"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Lá cờ biểu tượng cho tự do giới tính do Gilbert Baker thiết kế ban đầu có mấy sọc màu?",
+    "answer": [
+      "6",
+      "7",
+      "8"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Lễ hội âm nhạc \"Gió mùa\" 2017 được tổchức tại địa điểm nào?",
+    "answer": [
+      "Sân vận động Mỹ Đình",
+      "Ecopark",
+      "Hoàng thành Thăng Long "
+    ],
+    "true": 2
+  },
+  {
+    "question": "Bài hát nào sau đây của Trịnh Công Sơn KHÔNG có từ \"trắng\"?",
+    "answer": [
+      "Tuổi đời mênh mông",
+      "Nắng thuỷ tinh",
+      "Lời ru đêm"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Tác phẩm văn học nào sau đây là sáng tác của nhà văn Thiên Hư?",
+    "answer": [
+      "Truyện người hàng xóm",
+      "Qua những màn tối",
+      "Tình là dây oan"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Thứ Sáu Đen (Black Friday) ở Mỹ là ngày mấy?",
+    "answer": [
+      "Thứ 6 ngày 13",
+      "Thứ sáu thứ 3 tháng 11",
+      "Thứ sáu thứ 4 tháng 11"
+    ],
+    "true": 2
+  },
+  {
+    "question": "FIFA lần đầu sử dụng quy tắc phạt với thẻ đỏ, thẻ vàng trong World Cup năm nào?",
+    "answer": [
+      "1962",
+      "1966",
+      "1970"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Trong danh sách sau đây, đâu KHÔNG phải là \"Bảo vật quốc gia\" ?",
+    "answer": [
+      "Tranh \"Em Thúy\"",
+      "Tượng Thần Vishnu",
+      "Rìu đồng Đông Sơn"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Khu vực nào sau đây KHÔNG phải là \"Khu dự trữ sinh quyển của thế giới\", tính đến năm 2015?",
+    "answer": [
+      "Cần Giờ",
+      "Lang Biang",
+      "Hoàng Liên Sơn"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Bức tranh nào của họa sĩ Lê Phổ đã được bán tại Hồng Kông với giá gần 750.000 USD?",
+    "answer": [
+      "Gia đình",
+      "Mẹ và con",
+      "Cuộc sống gia đình"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Tulip KHÔNG phải là quốc hoa của đất nước nào?",
+    "answer": [
+      "Kyrgyzstan",
+      "Hungary",
+      "Bỉ"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Khi Trạng nguyên nhỏ tuổi nhất Việt Nam qua đời, ông đã được vua Trần Thái Tông truy phong tước gì?",
+    "answer": [
+      "Khai quốc Trạng nguyên",
+      "Chiêu Minh Đại vương",
+      "Đại vương thành hoàng"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Loài thú nào sau đây chỉ sinh sống ở dãy Trường Sơn?",
+    "answer": [
+      "Hươu sao",
+      "Sao la",
+      "Bò sừng xoắn"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Ca khúc nào là bài hát chính thức của FIFA World Cup 2018 tổ chức tại Nga?",
+    "answer": [
+      "Colors",
+      "In My Head",
+      "Live It Up"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Đâu KHÔNG phải là tên một loại bánh?",
+    "answer": [
+      "Bánh tét",
+      "Bánh đấm",
+      "Bánh tiêu"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Đâu là tên của một trò chơi dân gian?",
+    "answer": [
+      "Đi cà tím",
+      "Đi cà kheo",
+      "Đi cà lăm"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Trong các MV sau đây, MV nào được quay bằng công nghệ IMAX?",
+    "answer": [
+      "Hello",
+      "Thunder",
+      "Blank space"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Trong luật bóng bàn, người chơi đổi giao bóng sau mấy điểm?",
+    "answer": [
+      "2",
+      "3",
+      "5"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Tính đến nay, cầu thủ nào ghi bàn nhiều nhất cho đội tuyển bóng đá quốc gia Việt Nam?",
+    "answer": [
+      "Công Vinh",
+      "Công Phượng",
+      "Huỳnh Đức"
+    ],
+    "true": 0
+  },
+  {
+    "question": "\"Khi còn thở, nghĩa là ta còn hi vọng\", là câu nói của Tổng thống nào?",
+    "answer": [
+      "Barack Obama",
+      "John F. Kennedy",
+      "Bill Clinton"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Thành phố nào sau đây cùng múi giờ với Hà Nội, Việt Nam theo hệ thống thời gian UTC?",
+    "answer": [
+      "Kemerovo, Nga",
+      "Tokyo, Nhật Bản",
+      "Chita, Nga"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Nghệ sĩ nào từng học tại trường chuyên Lê Hồng Phong, Thành phố Hồ Chí Minh?",
+    "answer": [
+      "Đông Nhi",
+      "Vũ Cát Tường",
+      "Tóc Tiên"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Trong bài hát \"Đưa cơm cho mẹ đi cày\" của tác giả Hàn Ngọc Bích, em bé đọc thư của ai?",
+    "answer": [
+      "Cô giáo",
+      "Bố",
+      "Anh"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Trong lịch sử Việt Nam, nhân vật nào là Thái Thượng Hoàng mà chưa từng làm vua?",
+    "answer": [
+      "Trần Minh Tông",
+      "Trần Huy Tông",
+      "Trần Dụ Tông"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Một tá bút là bao nhiêu cái?",
+    "answer": [
+      "10",
+      "12",
+      "15"
+    ],
+    "true": 1
   }
 ]

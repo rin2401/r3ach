@@ -4,7 +4,10 @@ from time import time
 import json
  
 USER_AGENT = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"}
- 
+BAD_LINK = [
+    "facebook",
+    ".pdf"
+]
 def fetch_results(search_term, number_results, language_code):
     assert isinstance(search_term, str), "Search term must be a string"
     assert isinstance(number_results, int), "Number of results must be an integer"
@@ -56,6 +59,9 @@ def count_keys(texts, keys):
 def get_html(link):
     t = time()
     try: 
+        for b in BAD_LINK:
+            if b in link:
+                raise Exception("Bad link.")
         response = requests.get(link, headers=USER_AGENT, timeout=1)
         soup = BeautifulSoup(response.text, "html.parser")
         return soup.prettify(), time() - t

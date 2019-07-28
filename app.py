@@ -3,6 +3,7 @@ import json
 import random
 import search
 from time import time
+import threading
 
 app = Flask(__name__)
 app.config["JSON_AS_ASCII"] = False
@@ -33,6 +34,13 @@ def search_api():
 
 @app.route("/count", methods=["POST"])
 def count_api():
+    def search_thread(link, results, index):
+        data, t = search.get_html(link)
+        results[index] = {
+            "data": data,
+            "time": t
+        }
+
     data = request.json
     question = data["q"]
     answer = data["a"]
@@ -48,13 +56,21 @@ def count_api():
 
     google_time = time() - begin_time
     # print(results)
-    htmls = []
-    for i in range(5): 
-        html, lt = search.get_html(results[i]["link"])
-        htmls.append(html)
-        results[i]["time"] = lt
-    texts = [r["description"] for r in results if r["description"] != None]
-    texts += htmls
+    search_data = [{} for _ in results]
+    threads = []
+    for ii in range(len(results)): 
+        process = threading.Thread(target=search_thread, args=[results[ii]["link"], search_data, ii])
+        process.start()
+        threads.append(process)
+    
+    for process in threads:
+        process.join()
+
+    texts = [r["description"] for r in results if r["description"] != None]    
+    for i, d in enumerate(search_data):
+        texts.append(d["data"])
+        results[i]["time"] = d["time"]
+
     count = search.count_keys(texts, answer)
     print("Count:", count)
     total_time = time() - begin_time

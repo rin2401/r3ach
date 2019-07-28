@@ -30,7 +30,11 @@
             <ul id="answer" class="list-group list-group-flush">
                 {% for text in data.answer %}
                 <li id="ans{{ loop.index0 }}" class="list-group-item">
+                    {% if loop.index0 == data.true %}
+                    <count class="badge badge-success">0</count>
+                    {% else %}
                     <count class="badge badge-danger">0</count>
+                    {% endif %}
                     <ans>{{ text }}</ans>
                 </li>
                 {% endfor%}
@@ -90,11 +94,19 @@
     })
 
     function get_question(qid) {
-        count.forEach(x => x.innerText = 0)
+        count.forEach(x => {
+            x.innerText = 0
+            x.classList = "badge badge-danger"
+        })
         $.get("questions/" + qid, data => {
             console.log(data)
             question.html(data.question)
-            answer.forEach((x, i) => x.innerText = data.answer[i])
+            answer.forEach((x, i) => {
+                x.innerText = data.answer[i]
+            })
+            count.forEach((x, i) => {
+                if(i == data.true) x.classList = "badge badge-success"
+            })
         })
     }
 
