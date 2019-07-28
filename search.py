@@ -53,6 +53,15 @@ def count_keys(texts, keys):
     text = " ".join(texts).lower()
     return {k: text.count(k.lower()) for k in keys}
 
+def get_html(link):
+    t = time()
+    try: 
+        response = requests.get(link, headers=USER_AGENT, timeout=1)
+        soup = BeautifulSoup(response.text, "html.parser")
+        return soup.prettify(), time() - t
+    except:
+        return "", time() - t
+
 if __name__ == "__main__":
 
     keywords = [
@@ -82,13 +91,16 @@ if __name__ == "__main__":
     with open("data/questions.json") as f:
         questions = json.load(f)
 
-    with open("data/1.json", "r") as f:
+    with open("image/1.json", "r") as f:
         data = json.load(f)
     links = [d["link"] for d in data]
     print(links)
 
+
+    link = "http://kenh14.vn/kham-pha/su-that-sau-moi-cai-ten-cua-cac-hanh-tinh-quen-thuoc-20140227094250802.chn"
+
     t = time()
-    response = requests.get(links[1], headers=USER_AGENT)
+    response = requests.get(link, headers=USER_AGENT)
     
     html = response.text
     soup = BeautifulSoup(html, "html.parser")
@@ -99,13 +111,11 @@ if __name__ == "__main__":
     texts = [p.get_text() for p in soup.find_all("p")]
     # print(texts)
     html_lower = html.lower()
-    print("Count:", html_lower.count("phở bò"), html_lower.count("hủ tiếu"), html_lower.count("cơm tấm"))
-    print(count_keys(html_lower, questions[0]["answer"]))
+    print(count_keys([html_lower], questions[9]["answer"]))
     print("Time:", time() - t)
     
-
-    with open("data/soup_2.html", "w") as f:
-        f.write(response.text)
-    with open("data/soup_2.txt", "w") as f:
+    with open("image/soup.html", "w") as f:
+        f.write(soup.prettify())
+    with open("image/soup.txt", "w") as f:
         f.write(" ".join(texts))
 

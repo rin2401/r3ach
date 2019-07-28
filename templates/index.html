@@ -5,10 +5,10 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" href=static/img/moon.png" type="image/x-icon"/>
+    <link rel="icon" href="static/img/moon.png" type="image/x-icon"/>
     <link rel="shortcut icon" href="static/img/moon.png" type="image/x-icon"/>
     <title>r3ach</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
     <link href="static/css/jquery.json-viewer.css" rel="stylesheet">
 </head>
 
@@ -16,8 +16,8 @@
     <div class="jumbotron jumbotron-fluid">
             <img src="static/img/moon.png" class="float-left" width="124px">
         <div class="container">
-            <h1 class="display-4">
-                r3ach
+            <h1 class="display-4" >
+                <a href="/" class="text-dark text-decoration-none">r3ach</a>
             </h1>
             <p class="lead">Reach to the moon</p>
         </div>
@@ -38,10 +38,10 @@
         </div>
 
         <div class="btn-group d-flex" role="group">
-                <button type="button" class="btn btn-light w-100">Previous</button>
+            <button id="previous" type="button" class="btn btn-light w-100">Previous</button>
             <button id="scan" type="button" class="btn btn-light w-100">Scan</button>
             <button type="button" class="btn btn-light w-100">Submit</button>
-            <button type="button" class="btn btn-light w-100">Next</button>
+            <button id="next" type="button" class="btn btn-light w-100">Next</button>
         </div>
         <pre style="word-wrap: break-word; white-space: pre-wrap;" id="result"></pre>
     </div>
@@ -49,24 +49,54 @@
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
 <script src="static/js/jquery.json-viewer.js"></script>
 <script>
-    question =  $("#question").html().trim()
-    answer = $("#answer").find("ans").toArray().map(x => (x.innerText))
+    qid = {{qid}}
+    qlen = {{len}}
+    question =  $("#question")
+    answer = $("#answer").find("ans").toArray()
     count =  $("#answer").find("count").toArray()
-    console.log(answer)
-    console.log(count)
 
     $("#scan").on("click", () => {
-        data = {q: question, a: answer}
+        console.log("Click")
+        question_text = question.html().trim()
+        answer_text = answer.map(x => x.innerText)
+        data = {q: question_text, a: answer_text}
+        console.log(data)
+
         $.post({
             url: "count",
             contentType: "application/json; charset=utf-8",
             data: JSON.stringify(data)
         }).done(data => {
-            count.map((e,i) => {
-                e.innerText = data.count[answer[i]]
-            })
+            console.log(data)
             $('#result').jsonViewer(data)
+            count.map((e,i) => {
+                e.innerText = data.count[answer_text[i]]
+            })
+        }).fail(data => {
+            console.log(data.responseJSON)
+            $('#result').jsonViewer(data.responseJSON)
         })
+        
     })
+    $("#previous").on("click", () => {
+        qid = ((qid - 1) % qlen + qlen) % qlen
+        get_question(qid)
+        history.pushState(null, "", "/" +  qid)
+    })
+    $("#next").on("click", () => {
+        qid = ((qid + 1) % qlen + qlen) % qlen
+        get_question(qid)
+        history.pushState(null, "", "/" + qid)
+    })
+
+    function get_question(qid) {
+        count.forEach(x => x.innerText = 0)
+        $.get("questions/" + qid, data => {
+            console.log(data)
+            question.html(data.question)
+            answer.forEach((x, i) => x.innerText = data.answer[i])
+        })
+    }
+
 </script>
 </html>

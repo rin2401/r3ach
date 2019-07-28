@@ -30,5 +30,85 @@
       "Gordon Ramsay",
       "Martin Yan"
     ]
+  },
+  {
+    "question": "Ba ngôi sao Alnitak, Alnilam, Mintaka thuộc chòm sao nào sau đây?",
+    "answer": [
+      "Lạp Khuyển",
+      "Thiên Hậu",
+      "Lạp Hộ"
+    ]
+  },
+  {
+    "question": "Bông hoa đầu tiên nở trên Trạm vũ trụ quốc tế (ISS) thuộc loại hoa gì?",
+    "answer": [
+      "Hoa cúc",
+      "Hoa hồng",
+      "Hoa xương rồng"
+    ]
+  },
+  {
+    "question": "\"Milky Way\" là tên tiếng Anh của cái gì?",
+    "answer": [
+      "Dải ngân hà",
+      "Hệ mặt trời",
+      "Lỗ đen vũ trụ"
+    ]
+  },
+  {
+    "question": "Theo trang Space, đến hết năm 2010, tàu con thoi Atlantis thực hiện được bao nhiêu chuyến bay?",
+    "answer": [
+      "32",
+      "33",
+      "34"
+    ]
+  },
+  {
+    "question": "Diễn viên Kelly Marie Trần tham gia phần nào của loạt phim \"Chiến tranh giữa các vì sao\"?",
+    "answer": [
+      "Đế chế phản công",
+      "Thần lực thức tỉnh",
+      "Jedi cuối cùng"
+    ]
+  },
+  {
+    "question": "Trong Hệ mặt trời, hành tinh nào sau đây được đặt theo tên một vị thần Hy Lạp?",
+    "answer": [
+      "Sao Thổ",
+      "Sao Hải Vương",
+      "Sao Thiên Vương"
+    ]
+  },
+  {
+    "question": "Đâu không phải là một vật thể, hiện tượng trong vũ trụ?",
+    "answer": [
+      "Sao băng",
+      "Sao chổi",
+      "Sao la﻿"
+    ]
+  },
+  {
+    "question": "Tính đến tháng 11/2018, trong các quốc gia sau đây quốc gia nào có nhiều vệ tinh nhất?",
+    "answer": [
+      "Canada",
+      "Ấn Độ",
+      "Đức"
+    ]
+  },
+  {
+    "question": "MV đầu tiên quay hoàn toàn ở ngoài vũ trụ được lấy theo tên bài hát của ai?",
+    "answer": [
+      "Elton John",
+      "Paul McCartney",
+      "David Bowie"
+    ]
+  },
+  {
+    "question": "Đâu là một vị thần trong truyện thần thoại Việt Nam?",
+    "answer": [
+      "Thần Dớt",
+      "Thần Trụ trời",
+      "Thần Đất Gai-a"
+    ]
   }
 ]
