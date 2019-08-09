@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="icon" href="{{ url_for('static', filename='img/moon.png') }}" type="image/x-icon"/>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='img/moon.png') }}" type="image/x-icon"/>
+    <title>r3ach</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+    <link href="{{ url_for('static', filename='css/jquery.json-viewer.css') }}" rel="stylesheet">
+</head>
+
+<body>
+    <div class="jumbotron jumbotron-fluid">
+            <img src="{{ url_for('static', filename='img/moon.png') }}" class="float-left" width="124px">
+        <div class="container">
+            <h1 class="display-4" >
+                <a href="/" class="text-dark text-decoration-none">r3ach</a>
+            </h1>
+            <p class="lead">Reach to the moon</p>
+        </div>
+    </div>
+
+    <div class="container">
+        <div class="card">
+            <div id="expand" class="card-body">{{ data.expand_answer }}</div>
+            <!-- <img class="card-img-top" src="static/img/1.png"> -->
+            <div class="card-header" id="question">{{ data.question }}</div>
+            <ul id="answer" class="list-group list-group-flush">
+                {% for text in data.answer %}
+                <li id="ans{{ loop.index0 }}" class="list-group-item">
+                    {% if text.id == data.correct %}
+                    <count class="badge badge-success">0</count>
+                    {% else %}
+                    <count class="badge badge-danger">0</count>
+                    {% endif %}
+                    <ans>{{ text.text }}</ans>
+                    <span class="badge badge-warning float-right">{{ text.count }}</span>
+                </li>
+                {% endfor%}
+            </ul>
+        </div>
+
+        <div class="btn-group d-flex" role="group">
+            <button id="previous" type="button" class="btn btn-light w-100">Previous</button>
+            <button id="scan" type="button" class="btn btn-light w-100">Scan</button>
+            <button type="button" class="btn btn-light w-100">Submit</button>
+            <button id="next" type="button" class="btn btn-light w-100">Next</button>
+        </div>
+        <pre style="word-wrap: break-word; white-space: pre-wrap;" id="result"></pre>
+    </div>
+</body>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+<script src="{{ url_for('static', filename='js/jquery.json-viewer.js') }}"></script>
+<script>
+    qid = {{qid}}
+    qlen = {{len}}
+    question =  $("#question")
+    answer = $("#answer").find("ans").toArray()
+    count =  $("#answer").find("count").toArray()
+
+    $("#scan").on("click", () => {
+        console.log("Click")
+        question_text = question.html().trim()
+        answer_text = answer.map(x => x.innerText)
+        data = {q: question_text, a: answer_text}
+        console.log(data)
+
+        $.post({
+            url: "{{base_url}}/count",
+            contentType: "application/json; charset=utf-8",
+            data: JSON.stringify(data)
+        }).done(data => {
+            console.log(data)
+            $('#result').jsonViewer(data)
+            count.map((e,i) => {
+                e.innerText = data.count[answer_text[i]]
+            })
+        }).fail(data => {
+            console.log(data.responseJSON)
+            $('#result').jsonViewer(data.responseJSON)
+        })
+        
+    })
+    $("#previous").on("click", () => {
+        qid = ((qid - 1) % qlen + qlen) % qlen
+        // get_question(qid)
+        // history.pushState(null, "", "/lazi/" +  qid)
+        window.location = "{{base_url}}/lazi/" + qid
+    })
+    $("#next").on("click", () => {
+        qid = ((qid + 1) % qlen + qlen) % qlen
+        // get_question(qid)
+        // history.pushState(null, "", "/lazi/" + qid)
+        window.location = "{{base_url}}/lazi/" + qid
+
+    })
+
+    function get_question(qid) {
+        count.forEach(x => {
+            x.innerText = 0
+            x.classList = "badge badge-danger"
+        })
+        $.get("{{base_url}}/questions/" + qid, data => {
+            console.log(data)
+            question.html(data.question)
+            answer.forEach((x, i) => {
+                x.innerText = data.answer[i]
+            })
+            count.forEach((x, i) => {
+                if(i == data.true) x.classList = "badge badge-success"
+            })
+        })
+    }
+
+</script>
+</html>

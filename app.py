@@ -20,6 +20,23 @@ def hello(qid=None):
        qid = random.randint(0, len(data) - 1) 
     return render_template("index.html", data=data[qid], qid=qid, len=len(data))
 
+
+@app.route("/lazi")
+def lazi_index():
+    return lazi()
+
+
+@app.route("/lazi/<int:qid>")
+def lazi(qid=None):    
+    with open("data/lazi.json", "r") as f:
+        data = f.readlines()
+    if qid == None:
+       qid = random.randint(0, len(data) - 1) 
+    
+    qdata = json.loads(data[qid])
+    return render_template("lazi.html", data=qdata, qid=qid, len=len(data))
+
+
 @app.route("/questions/<int:qid>")
 def questions(qid):
     with open("data/questions.json", "r") as f:
@@ -34,11 +51,13 @@ def search_api():
 
 @app.route("/count", methods=["POST"])
 def count_api():
-    def search_thread(link, results, index):
+    def search_thread(link, results, index, keys):
         data, t = search.get_html(link)
+        count = search.count_keys([data], keys)
         results[index] = {
             "data": data,
-            "time": t
+            "time": t,
+            "count": count
         }
 
     data = request.json
@@ -59,7 +78,7 @@ def count_api():
     search_data = [{} for _ in results]
     threads = []
     for ii in range(len(results)): 
-        process = threading.Thread(target=search_thread, args=[results[ii]["link"], search_data, ii])
+        process = threading.Thread(target=search_thread, args=[results[ii]["link"], search_data, ii, answer])
         process.start()
         threads.append(process)
     
@@ -70,6 +89,7 @@ def count_api():
     for i, d in enumerate(search_data):
         texts.append(d["data"])
         results[i]["time"] = d["time"]
+        results[i]["count"] = d["count"]
 
     count = search.count_keys(texts, answer)
     print("Count:", count)

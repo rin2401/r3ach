@@ -6,7 +6,10 @@ import json
 USER_AGENT = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"}
 BAD_LINK = [
     "facebook",
-    ".pdf"
+    ".pdf",
+    "download",
+    ".edu",
+    ".gov"
 ]
 def fetch_results(search_term, number_results, language_code):
     assert isinstance(search_term, str), "Search term must be a string"
@@ -62,11 +65,14 @@ def get_html(link):
         for b in BAD_LINK:
             if b in link:
                 raise Exception("Bad link.")
-        response = requests.get(link, headers=USER_AGENT, timeout=1)
+        response = requests.get(link, headers=USER_AGENT, timeout=1, allow_redirects=False)
+        get_time = time() - t
         soup = BeautifulSoup(response.text, "html.parser")
-        return soup.prettify(), time() - t
-    except:
-        return "", time() - t
+        soup.prettify()
+        texts = [p.get_text() for p in soup.find_all("p")]
+        return " ".join(texts), {"get": get_time, "soup": time() - get_time - t}
+    except Exception as e:
+        return "", {"data": str(e), "time": time() - t}
 
 if __name__ == "__main__":
 
