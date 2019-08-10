@@ -1,0 +1,74 @@
+[
+    {
+        "question": "Từ nào KHÔNG dùng để chỉ bộ phận trên cơ thể con người?",
+        "answer": [
+            "Bắp tay",
+            "Bắp cải",
+            "Bắp chân"
+        ],
+        "true": 1
+    },
+    {
+        "question": "\"Sao Michelin\" là danh hiệu dùng để đánh giá trong lĩnh vực nào?",
+        "answer": [
+            "Âm nhạc",
+            "Văn học",
+            "Ẩm thực"
+        ],
+        "true": 2
+    },
+    {
+        "question": "\"Áo chàm đưa buổi phân li/Cầm tay nhau biết nói gì hôm nay\" là đoạn trích trong bài thơ của ai?",
+        "answer": [
+            "Tố Hữu",
+            "Chế Lan Viên",
+            "Hàn Mặc Tử"
+        ],
+        "true": 0
+    },
+    {
+        "question": "Trong nhóm nhạc CLC của Hàn Quốc, thành viên nào là người Thái Lan?",
+        "answer": [
+            "Yeeun",
+            "Sorn",
+            "Elkie"
+        ],
+        "true": 1
+    },
+    {
+        "question": "Ca sĩ Việt Nam đầu tiên tham dự lễ trao giải Billboard Music Awards là ai?",
+        "answer": [
+            "Mỹ Tâm",
+            "Trọng Hiếu",
+            "Sơn Tùng M-TP"
+        ],
+        "true": 1
+    },
+    {
+        "question": "Tên tiếng Anh của quả sầu riêng xuất phát từ từ có nghĩa là gì trong tiếng Mã Lai?",
+        "answer": [
+            "Nặng mùi",
+            "Ngọt đậm",
+            "Có gai"
+        ],
+        "true": 2
+    },
+    {
+        "question": "Cầu thủ bóng chày nào sau đây có thói quen đặt lá bắp cải lạnh dưới mũ để làm mát khi thi đấu?",
+        "answer": [
+            "Reggie Jackson",
+            "Babe Ruth",
+            "Jackie Robinson"
+        ],
+        "true": 1
+    },
+    {
+        "question": "Trong truyện thơ \"Tiễn dặn người yêu\" của dân tộc Thái, cô gái bị nhà chồng đổi bản lấy thứ gì?",
+        "answer": [
+            "Cuốn lá dong",
+            "Bầu rượu ngô",
+            "Miếng vải thổ cẩm"
+        ],
+        "true": 0
+    }
+]

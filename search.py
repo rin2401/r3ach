@@ -39,7 +39,7 @@ def parse_results(html, keyword):
             if description:
                 description = description.get_text().replace("\xa0...", "")
             if link != "#" and "http" in link:
-                found_results.append({"keyword": keyword, "rank": rank, "title": title, "description": description, "link": link})
+                found_results.append({"rank": rank, "title": title, "description": description, "link": link})
                 rank += 1
     return found_results
 

@@ -14,7 +14,7 @@ def index():
 
 @app.route("/<int:qid>")
 def hello(qid=None):
-    with open("data/questions.json", "r") as f:
+    with open("data/questions.json", "r", encoding="utf8") as f:
         data = json.load(f)
     if qid == None:
        qid = random.randint(0, len(data) - 1) 
@@ -39,8 +39,8 @@ def lazi(qid=None):
 
 @app.route("/questions/<int:qid>")
 def questions(qid):
-    with open("data/questions.json", "r") as f:
-        data = json.load(f)
+    with open("data/questions.json", "r", encoding="utf8") as f:
+        data = json.load(f, )
     return jsonify(data[qid])
 
 @app.route("/search", methods=["GET"])

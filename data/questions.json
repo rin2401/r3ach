@@ -2257,5 +2257,284 @@
       "15"
     ],
     "true": 1
-  }
+  },
+  {
+    "question": "Thiết kế của Nhà thờ Đức Bà tại thành phố Hồ Chí Minh không mang phong cách kiến trúc nào?",
+    "answer": [
+      "Gothic",
+      "Roman",
+      "Baroque"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Theo truyện dân gian Việt Nam, sự tích về bánh chưng bánh giày gắn liền với vị vua Hùng đời thứ mấy?",
+    "answer": [
+      "6",
+      "8",
+      "18"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Ngôn ngữ minion dùng để đếm số trong đoạn phim trên là ngôn ngữ nước nào?",
+    "answer": [
+      "Nhật Bản",
+      "Hàn Quốc",
+      "Tây Ban Nha"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Từ nào KHÔNG dùng để chỉ bộ phận trên cơ thể con người?",
+    "answer": [
+      "Bắp tay",
+      "Bắp cải",
+      "Bắp chân"
+    ],
+    "true": 1
+  },
+  {
+    "question": "\"Sao Michelin\" là danh hiệu dùng để đánh giá trong lĩnh vực nào?",
+    "answer": [
+      "Âm nhạc",
+      "Văn học",
+      "Ẩm thực"
+    ],
+    "true": 2
+  },
+  {
+    "question": "\"Áo chàm đưa buổi phân li/Cầm tay nhau biết nói gì hôm nay\" là đoạn trích trong bài thơ của ai?",
+    "answer": [
+      "Tố Hữu",
+      "Chế Lan Viên",
+      "Hàn Mặc Tử"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Trong nhóm nhạc CLC của Hàn Quốc, thành viên nào là người Thái Lan?",
+    "answer": [
+      "Yeeun",
+      "Sorn",
+      "Elkie"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Ca sĩ Việt Nam đầu tiên tham dự lễ trao giải Billboard Music Awards là ai?",
+    "answer": [
+      "Mỹ Tâm",
+      "Trọng Hiếu",
+      "Sơn Tùng M-TP"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Tên tiếng Anh của quả sầu riêng xuất phát từ từ có nghĩa là gì trong tiếng Mã Lai?",
+    "answer": [
+      "Nặng mùi",
+      "Ngọt đậm",
+      "Có gai"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Cầu thủ bóng chày nào sau đây có thói quen đặt lá bắp cải lạnh dưới mũ để làm mát khi thi đấu?",
+    "answer": [
+      "Reggie Jackson",
+      "Babe Ruth",
+      "Jackie Robinson"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Trong truyện thơ \"Tiễn dặn người yêu\" của dân tộc Thái, cô gái bị nhà chồng đổi bản lấy thứ gì?",
+    "answer": [
+      "Cuốn lá dong",
+      "Bầu rượu ngô",
+      "Miếng vải thổ cẩm"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Hoa hậu hoàn vũ Việt Nam H'Hen Nie là người dân tộc nào",
+    "answer": [
+      "Mường",
+      "H' Mông",
+      "Ê Đê"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Chữ cái cuối cùng trong bảng chữ cái tiếng Việt là gì",
+    "answer": [
+      "X",
+      "Y",
+      "Z"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Thành phố nào có số dân đông nhất Việt Nam",
+    "answer": [
+      "Hồ Chí Minh",
+      "Hà Nội",
+      "Hải Phòng"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Bộ phim truyền hình Ấn Độ được ưa chuộng ở Việt Nam dài gần 2000 tập và vô cùng nổi tiếng đó là bộ phim gì",
+    "answer": [
+      "Cô dâu 8 tuổi",
+      "Em chưa 18",
+      "Sống chung với mẹ chồng"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Tỏi cô đơn của Lý Sơn có bao nhiêu tép",
+    "answer": [
+      "1",
+      "2",
+      "3"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Người có nhóm máu nào có thể tiếp nhận tất cả các nhóm máu còn lại",
+    "answer": [
+      "AB",
+      "O",
+      "A"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Ngày 15/12/2018 đội tuyển Việt Nam đã đoạt chức vô địch trong giải đấu nào",
+    "answer": [
+      "Asiad",
+      "Seagame",
+      "AFF Cup"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Bollywood là tên ngành điện ảnh của quốc gia nào",
+    "answer": [
+      "Anh",
+      "Ấn Độ",
+      "Thái Lan"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Trong bài Bắc Kim Thang, con gì thôi tò tí te",
+    "answer": [
+      "Châu chấu",
+      "Le le",
+      "Bìm bịp"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Môn nào được mệnh danh là môn thể thao vua của Việt Nam",
+    "answer": [
+      "Bóng bầu dục",
+      "Bóng rổ",
+      "Bóng đá"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Trong truyện \"Nàng Bạch Tuyết và bảy chú lùn\" bà hoàng hậu đã bỏ độc vào quả gì cho Bạch Tuyết ăn",
+    "answer": [
+      "Quả dâu",
+      "Quả hạnh nhân",
+      "Quả táo"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Trên tay của người bình thường, ngón nào chỉ có 2 đốt",
+    "answer": [
+      "Ngón trỏ",
+      "Ngón út",
+      "Ngón cái"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Một năm nhuận dương lịch có bao nhiêu ngày",
+    "answer": [
+      "365",
+      "366",
+      "367"
+    ],
+    "true": 1
+  },
+  {
+    "question": "Trong truyện \"My Châu Trọng Thủy”, Mỵ Châu đã dùng vật gì để đánh dấu cho Trọng Thủy tim mình",
+    "answer": [
+      "Tóc",
+      "Lá cây",
+      "Lông ngỗng"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Trong lời tuyên truyền của các tổ chức bảo vệ động vật, thành phần của sừng tê giác không khác gì so với một bộ phận gì của con người",
+    "answer": [
+      "Da",
+      "Sun",
+      "Móng"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Nhật Bản được mệnh danh là đất nước gì",
+    "answer": [
+      "Đất nước Ngôi sao sáng",
+      "Đất nước Mặt trăng lớn",
+      "Đất nước Mặt trời mọc"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Sushi khác Sashimi ở điểm nào",
+    "answer": [
+      "Sushi có nguyên liệu sống",
+      "Sushi có cá hồi",
+      "Sushi có cơm trộn dấm"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Giải thưởng nào được coi là danh giá nhất trong lĩnh vực âm nhạc tương đương với Osca trong lĩnh vực điện ảnh tại Mỹ",
+    "answer": [
+      "Grammy",
+      "Nobel",
+      "Michelin"
+    ],
+    "true": 0
+  },
+  {
+    "question": "Hòn đảo nào ở Vịnh Hạ Long xuất hiện trên tờ tiền 200.000",
+    "answer": [
+      "Hòn Phụ Tử",
+      "Hòn Trống Mái",
+      "Hòn Đỉnh Hương"
+    ],
+    "true": 2
+  },
+  {
+    "question": "Trong bài ca dao \"Thằng Bờm có cái quạt mo\", Phú Ông đã dùng cái gì để thằng Bờm chịu đối với ông",
+    "answer": [
+      "Ba bò chín trâu",
+      "Nắm xôi",
+      "Bè gỗ lim"
+    ],
+    "true": 1
+  }  
 ]
