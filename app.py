@@ -1,4 +1,4 @@
-from flask import Flask, render_template, request, jsonify, abort
+from flask import Flask, render_template, request, jsonify, abort, Markup
 import json
 import random
 import search
@@ -9,9 +9,6 @@ app = Flask(__name__)
 app.config["JSON_AS_ASCII"] = False
 
 @app.route("/")
-def index():
-    return hello()
-
 @app.route("/<int:qid>")
 def hello(qid=None):
     with open("data/questions.json", "r", encoding="utf8") as f:
@@ -20,12 +17,20 @@ def hello(qid=None):
        qid = random.randint(0, len(data) - 1) 
     return render_template("index.html", data=data[qid], qid=qid, len=len(data))
 
+@app.route("/lazi/filter")
+@app.route("/lazi/filter/<int:qid>")
+def lazi_filter(qid=None):    
+    with open("data/lazi_expand_filter_answer.json", "r") as f:
+        data = f.readlines()
+    if qid == None:
+       qid = random.randint(0, len(data) - 1) 
+    
+    q = json.loads(data[qid])
+    correct = list(filter(lambda x: x["id"] == q["correct"], q["answer"]))[0]["text"]
+    q["expand_answer"] = Markup(q["expand_answer"].replace("\n", "<br>").replace(correct, f"<b>{correct}</b>"))
+    return render_template("lazi.html", data=q, qid=qid, len=len(data), path="/lazi/filter")
 
 @app.route("/lazi")
-def lazi_index():
-    return lazi()
-
-
 @app.route("/lazi/<int:qid>")
 def lazi(qid=None):    
     with open("data/lazi.json", "r") as f:
@@ -34,8 +39,7 @@ def lazi(qid=None):
        qid = random.randint(0, len(data) - 1) 
     
     qdata = json.loads(data[qid])
-    return render_template("lazi.html", data=qdata, qid=qid, len=len(data))
-
+    return render_template("lazi.html", data=qdata, qid=qid, len=len(data), path="/lazi")
 
 @app.route("/questions/<int:qid>")
 def questions(qid):

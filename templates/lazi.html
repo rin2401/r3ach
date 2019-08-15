@@ -88,15 +88,25 @@
         qid = ((qid - 1) % qlen + qlen) % qlen
         // get_question(qid)
         // history.pushState(null, "", "/lazi/" +  qid)
-        window.location = "{{base_url}}/lazi/" + qid
+        window.location = "{{base_url}}{{path}}/" + qid
     })
     $("#next").on("click", () => {
         qid = ((qid + 1) % qlen + qlen) % qlen
         // get_question(qid)
         // history.pushState(null, "", "/lazi/" + qid)
-        window.location = "{{base_url}}/lazi/" + qid
-
+        window.location = "{{base_url}}{{path}}/" + qid
     })
+
+    $(document).on('keydown', (e) => {
+        if (e.keyCode == '37') {
+            qid = ((qid - 1) % qlen + qlen) % qlen
+            window.location = "{{base_url}}{{path}}/" + qid
+        }
+        else if (e.keyCode == '39') {
+            qid = ((qid + 1) % qlen + qlen) % qlen
+            window.location = "{{base_url}}{{path}}/" + qid           
+        }
+    });
 
     function get_question(qid) {
         count.forEach(x => {

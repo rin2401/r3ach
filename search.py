@@ -2,7 +2,9 @@ import requests
 from bs4 import BeautifulSoup
 from time import time
 import json
- 
+from fake_useragent import UserAgent
+ua = UserAgent()
+
 USER_AGENT = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"}
 BAD_LINK = [
     "facebook",
@@ -12,6 +14,8 @@ BAD_LINK = [
     ".gov"
 ]
 def fetch_results(search_term, number_results, language_code):
+
+    USER_AGENT = {"User-Agent": ua.random}
     assert isinstance(search_term, str), "Search term must be a string"
     assert isinstance(number_results, int), "Number of results must be an integer"
     escaped_search_term = search_term.replace(" ", "+")
@@ -83,6 +87,8 @@ if __name__ == "__main__":
         # "\"Tôi chưa bao giờ nghĩ là làm một tô bún lại khó đến thế\" là câu nói của đầu bếp nào dưới đây?"
     ]
 
+    results = scrape_google(keywords[0], 10, "vi")
+
     # data = []
     # for keyword in keywords:
     #     try:
@@ -100,34 +106,34 @@ if __name__ == "__main__":
     # with open("image/result.json", "w") as f:
     #     f.write(json.dumps(data, ensure_ascii=False))   
 
-    with open("data/questions.json") as f:
-        questions = json.load(f)
+    # with open("data/questions.json") as f:
+    #     questions = json.load(f)
 
-    with open("image/1.json", "r") as f:
-        data = json.load(f)
-    links = [d["link"] for d in data]
-    print(links)
+    # with open("image/1.json", "r") as f:
+    #     data = json.load(f)
+    # links = [d["link"] for d in data]
+    # print(links)
 
 
-    link = "http://kenh14.vn/kham-pha/su-that-sau-moi-cai-ten-cua-cac-hanh-tinh-quen-thuoc-20140227094250802.chn"
+    # link = "http://kenh14.vn/kham-pha/su-that-sau-moi-cai-ten-cua-cac-hanh-tinh-quen-thuoc-20140227094250802.chn"
 
-    t = time()
-    response = requests.get(link, headers=USER_AGENT)
+    # t = time()
+    # response = requests.get(link, headers=USER_AGENT)
     
-    html = response.text
-    soup = BeautifulSoup(html, "html.parser")
+    # html = response.text
+    # soup = BeautifulSoup(html, "html.parser")
 
-    text = soup.title.string
-    print(type(text), text)
+    # text = soup.title.string
+    # print(type(text), text)
     
-    texts = [p.get_text() for p in soup.find_all("p")]
-    # print(texts)
-    html_lower = html.lower()
-    print(count_keys([html_lower], questions[9]["answer"]))
-    print("Time:", time() - t)
+    # texts = [p.get_text() for p in soup.find_all("p")]
+    # # print(texts)
+    # html_lower = html.lower()
+    # print(count_keys([html_lower], questions[9]["answer"]))
+    # print("Time:", time() - t)
     
-    with open("image/soup.html", "w") as f:
-        f.write(soup.prettify())
-    with open("image/soup.txt", "w") as f:
-        f.write(" ".join(texts))
+    # with open("image/soup.html", "w") as f:
+    #     f.write(soup.prettify())
+    # with open("image/soup.txt", "w") as f:
+    #     f.write(" ".join(texts))
 
