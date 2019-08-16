@@ -2,9 +2,6 @@ import requests
 from bs4 import BeautifulSoup
 from time import time
 import json
-from fake_useragent import UserAgent
-ua = UserAgent()
-
 USER_AGENT = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"}
 BAD_LINK = [
     "facebook",
@@ -14,8 +11,6 @@ BAD_LINK = [
     ".gov"
 ]
 def fetch_results(search_term, number_results, language_code):
-
-    USER_AGENT = {"User-Agent": ua.random}
     assert isinstance(search_term, str), "Search term must be a string"
     assert isinstance(number_results, int), "Number of results must be an integer"
     escaped_search_term = search_term.replace(" ", "+")
