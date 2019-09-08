@@ -5,11 +5,11 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="icon" href="static/img/moon.png" type="image/x-icon"/>
-    <link rel="shortcut icon" href="static/img/moon.png" type="image/x-icon"/>
+    <link rel="icon" href="{{ url_for('static', filename='img/moon.png') }}" type="image/x-icon"/>
+    <link rel="shortcut icon" href="{{ url_for('static', filename='img/moon.png') }}" type="image/x-icon"/>
     <title>r3ach</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
-    <link href="static/css/jquery.json-viewer.css" rel="stylesheet">
+    <link href="{{ url_for('static', filename='css/jquery.json-viewer.css') }}" rel="stylesheet">
 </head>
 
 <body>
@@ -51,7 +51,7 @@
     </div>
 </body>
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
-<script src="static/js/jquery.json-viewer.js"></script>
+<script src="{{ url_for('static', filename='js/jquery.json-viewer.js') }}"></script>
 <script>
     qid = {{qid}}
     qlen = {{len}}
@@ -74,7 +74,7 @@
             console.log(data)
             $('#result').jsonViewer(data)
             count.map((e,i) => {
-                e.innerText = data.count[answer_text[i]]
+                e.innerText = data.count.num[i]
             })
         }).fail(data => {
             console.log(data.responseJSON)

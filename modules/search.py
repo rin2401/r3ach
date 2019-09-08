@@ -1,6 +1,7 @@
 import requests
 from bs4 import BeautifulSoup
 from time import time
+import unicodedata
 import json
 USER_AGENT = {"User-Agent":"Mozilla/5.0 (Windows NT 10.0; Win64; x64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/61.0.3163.100 Safari/537.36"}
 BAD_LINK = [
@@ -10,6 +11,11 @@ BAD_LINK = [
     ".edu",
     ".gov"
 ]
+
+def remove_accent(text):
+    text = unicodedata.normalize('NFD', text.replace("đ","d").replace("Đ","D")).encode('ascii', 'ignore').decode("utf-8")
+    return str(text)
+
 def fetch_results(search_term, number_results, language_code):
     assert isinstance(search_term, str), "Search term must be a string"
     assert isinstance(number_results, int), "Number of results must be an integer"
@@ -55,8 +61,10 @@ def scrape_google(search_term, number_results, language_code):
         raise Exception("Appears to be an issue with your connection")
 
 def count_keys(texts, keys):
+    keys = [remove_accent(k) for k in keys]
     text = " ".join(texts).lower()
-    return {k: text.count(k.lower()) for k in keys}
+    text = remove_accent(text)    
+    return [text.count(k.lower()) for k in keys]
 
 def get_html(link):
     t = time()
@@ -72,6 +80,18 @@ def get_html(link):
         return " ".join(texts), {"get": get_time, "soup": time() - get_time - t}
     except Exception as e:
         return "", {"data": str(e), "time": time() - t}
+
+def search_thread(link, results, index, keys):
+    data, t = get_html(link)
+    count = count_keys([data], keys)
+    results[index] = {
+        "data": data,
+        "time": t,
+        "count": {
+            "key": keys, 
+            "num": count
+        }
+    }
 
 if __name__ == "__main__":
 

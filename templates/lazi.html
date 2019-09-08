@@ -76,7 +76,7 @@
             console.log(data)
             $('#result').jsonViewer(data)
             count.map((e,i) => {
-                e.innerText = data.count[answer_text[i]]
+                e.innerText = data.count.num[i]
             })
         }).fail(data => {
             console.log(data.responseJSON)
