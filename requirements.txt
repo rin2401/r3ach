@@ -1,6 +1,7 @@
 gunicorn
 flask
 jinja2
+eventlet
 
 requests
 beautifulsoup4
