@@ -73,7 +73,7 @@ def count_api():
 
     begin_time = time()
     try:
-        results = search.scrape_google(question, 5, "vi")
+        results = search.scrape_google(question, 10, "vi")
     except Exception as e:
         data = {
             "data": str(e)
@@ -148,6 +148,20 @@ def count_api():
     })
     
     return jsonify(data)
+
+@app.route("/chatfuel", methods=["POST"])
+def chatfuel():
+    data = request.json
+    text = data["text"]
+    res = {
+        "messages": [
+            {
+                "text": text
+            }
+        ]
+    }
+
+    return jsonify(res)
 
 @app.route("/socket")
 def sessions():
