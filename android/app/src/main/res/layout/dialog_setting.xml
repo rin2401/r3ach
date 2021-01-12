@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:aapt="http://schemas.android.com/aapt"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/rootView"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@android:color/white"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="#FDD835">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="4dp"
+            android:gravity="center"
+            android:text="Recognizer Setting"
+            android:textColor="@android:color/black"
+            android:textSize="24sp" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:layout_marginBottom="8dp"
+        android:orientation="vertical">
+
+        <RadioGroup
+            android:id="@+id/rgRecognizer"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <RadioButton
+                android:id="@+id/rbRecogOnDevice"
+                style="@android:style/Widget.Material.CompoundButton.RadioButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:checked="true"
+                android:lines="1"
+                android:text="On Device"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+
+            <RadioButton
+                android:id="@+id/rbRecogOnCloud"
+                style="@android:style/Widget.Material.CompoundButton.RadioButton"
+                android:layout_width="0dp"
+                android:layout_height="wrap_content"
+                android:layout_margin="2dp"
+                android:layout_weight="1"
+                android:checked="false"
+                android:lines="1"
+                android:text="On Cloud"
+                android:textColor="#000000"
+                android:textSize="18sp" />
+        </RadioGroup>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="4dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="On Device : recognize faster but less exact."
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="8dp"
+            android:text="On Cloud : recognize slower but more exact."
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <Button
+            android:id="@+id/btnOK"
+            style="@android:style/Widget.Material.Button"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_margin="8dp"
+            android:background="#FDD835"
+            android:text="OK"
+            android:textColor="@android:color/black"
+            android:textSize="20sp" />
+    </LinearLayout>
+</LinearLayout>
