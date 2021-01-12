@@ -9,3 +9,9 @@
 - [x] Crawl Google Search get link and desciption using BeautifulSoup.
 - [x] Crawl from link from before.
 - [ ] Search to choose right answer.
+
+## Android
+- [x] Capture and cut screen
+- [x] Firebase OCR
+- [x] Search answer on mobile
+- [x] Send message use Websocket
