@@ -1,5 +1,6 @@
 import os, sys
-sys.path.append(os.path.dirname(__file__))
+DIR = os.path.dirname(__file__)
+sys.path.append(DIR)
 
 from flask import Flask, render_template, request, jsonify, abort, Markup, session
 from flask_socketio import SocketIO
@@ -16,7 +17,7 @@ socketio = SocketIO(app)
 @app.route("/")
 @app.route("/<int:qid>")
 def hello(qid=None):
-    with open("data/questions.json", "r", encoding="utf8") as f:
+    with open(os.path.join(DIR, "data/questions.json"), "r", encoding="utf8") as f:
         data = json.load(f)
     if qid == None:
        qid = random.randint(0, len(data) - 1) 
