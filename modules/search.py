@@ -43,6 +43,9 @@ def parse_results(html, keyword):
             title = title.get_text()
             if description:
                 description = description.get_text().replace("\xa0...", "")
+            else:
+                description = ""
+                
             if link != "#" and "http" in link:
                 found_results.append({"rank": rank, "title": title, "description": description, "link": link})
                 rank += 1
@@ -103,6 +106,8 @@ if __name__ == "__main__":
     ]
 
     results = scrape_google(keywords[0], 10, "vi")
+
+    print(results)
 
     # data = []
     # for keyword in keywords:
